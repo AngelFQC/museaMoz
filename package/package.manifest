@@ -4,7 +4,7 @@
 	"size": 2948613,
 	"version": "1.0",
 	"description": "Guía de museos del Perú",
-	"launch_path": "./app.html",
+	"launch_path": "/museaMoz/app.html",
 	"developer": {
 		"name": "Angel Fernando Quiroz Campos",
 		"url": "http://angelfqc.wordpress.com"

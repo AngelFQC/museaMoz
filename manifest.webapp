@@ -2,10 +2,10 @@
 	"name": "museaMoz",
 	"description": "Guía de museos del Perú",
 	"version": "1.0",
-	"launch_path": "./app.html",
+	"launch_path": "/museaMoz/app.html",
 	"icons": {
-		"128": "./images/app_icon_128.png",
-		"60": "./images/app_icon_60.png"
+		"128": "/museaMoz/images/app_icon_128.png",
+		"60": "/museaMoz/images/app_icon_60.png"
 	},
 	"developer": {
 		"name": "Angel Fernando Quiroz Campos",
