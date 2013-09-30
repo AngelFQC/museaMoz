@@ -3,8 +3,8 @@
 	"package_path": "http://angelfqc.github.io/museaMoz/package/package.zip",
 	"size": 2948613,
 	"version": "1.0",
-	"description": "Guía de museos del Perú",
-	"launch_path": "/museaMoz/app.html",
+	"description": "Guía de Museos del Perú"
+	"launch_path": "/museaMoz/index.html",
 	"developer": {
 		"name": "Angel Fernando Quiroz Campos",
 		"url": "http://angelfqc.wordpress.com"
@@ -12,11 +12,11 @@
 	"locales": {
 		"es": {
 			"name": "museaMoz",
-			"description": "Guía de museo del Perú"
+			"description": "Guía de Museos del Perú"
 		},
 		"en": {
 			"name": "museaMoz",
-			"description": "Peru Museum guide"
+			"description": "Peru Museums Guide"
 		}
 	},
 	"default_locale": "es"

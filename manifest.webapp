@@ -1,8 +1,8 @@
 {
 	"name": "museaMoz",
-	"description": "Guía de museos del Perú",
+	"description": "Guía de Museos del Perú",
 	"version": "1.0",
-	"launch_path": "/museaMoz/app.html",
+	"launch_path": "/museaMoz/index.html",
 	"icons": {
 		"128": "/museaMoz/images/app_icon_128.png",
 		"60": "/museaMoz/images/app_icon_60.png"
@@ -14,11 +14,11 @@
 	"locales": {
 		"es": {
 			"name": "museaMoz",
-			"description": "Guía de museo del Perú"
+			"description": "Guía de Museos del Perú"
 		},
 		"en": {
 			"name": "museaMoz",
-			"description": "Peru Museum guide"
+			"description": "Peru Museums Guide"
 		}
 	},
 	"default_locale": "es"

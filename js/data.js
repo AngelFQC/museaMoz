@@ -26,11 +26,11 @@ var dataApp = [
 									telefonos: [
 										{
 											numeroMarcar: '+5174283610',
-											numeroMostrar: '(74) 283610'
+											numeroMostrar: '(074) 283610'
 										},
 										{
 											numeroMarcar: '+5174283146',
-											numeroMostrar: '(74) 283146'
+											numeroMostrar: '(074) 283146'
 										}
 									],
 									web: null
@@ -39,7 +39,7 @@ var dataApp = [
 						]
 					},
 					{
-						nombre: 'Primentel',
+						nombre: 'Pimentel',
 						museos: [
 							{
 								nombre: 'Casa Museo Héroe Cap. FAP José Quiñones',
@@ -49,7 +49,7 @@ var dataApp = [
 									'Está construido a base de caña, conchuelo (piedra, cemento, arena), yeso y vigas de algarrobo',
 									'En esta casa vivió el héroe de la aviación nacional, José Abelardo Quiñones Gonzáles, quien un 23 de julio de 1941 ofrendó su vida estrellándose contra los enemigos en el combate ante los ecuatorianos',
 									'Esta casa museo está compuesto por cinco ambientes en donde se exhiben fotografías del héroe',
-									'También seconserva la cama de bronce, su tocador con la vatorio, algunas arañas de bronce para las luces, piezas de la vajilla, el juego de comedor y algunos sillones de la época con decorados de mármol',
+									'También seconserva la cama de bronce, su tocador con lavatorio, algunas arañas de bronce para las luces, piezas de la vajilla, el juego de comedor y algunos sillones de la época con decorados de mármol',
 									'En el patio del fondo se ha instalado un pedestal con la estatua del héroe y placas de diferentes instituciones en su homenaje',
 									'Cuenta además con una pequeña biblioteca'
 								],
