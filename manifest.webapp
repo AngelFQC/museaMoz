@@ -12,13 +12,9 @@
 		"url": "http://angelfqc.wordpress.com"
 	},
 	"locales": {
-		"es": {
-			"name": "museaMoz",
-			"description": "Guía de Museos del Perú"
-		},
 		"en": {
 			"name": "museaMoz",
-			"description": "Peru Museums Guide"
+			"description": "Peruvian Museums Guide"
 		}
 	},
 	"default_locale": "es"
