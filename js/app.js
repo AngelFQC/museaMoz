@@ -57,7 +57,7 @@ function mostrarDepartamento () {
 		prov, dist, 
 		header, ul, li, a, p;
 
-	document.querySelector('#dpto-nombre').innerHTML = dpto.nombre;
+	document.querySelector('#dpto-nombre em').innerHTML = dpto.nombre;
 
 	for (var i = 0; i < dpto.provincias.length; i++) {
 		prov = dpto.provincias[i];
@@ -176,11 +176,6 @@ function mostrarMuseo() {
 		if (museo.contacto.web != null) {
 			liContacto = document.createElement('li');
 
-			pContacto = document.createElement('p');
-			pContacto.innerHTML = 'Sitio Web';
-
-			liContacto.appendChild(pContacto);
-
 			aContacto = document.createElement('a');
 			aContacto.setAttribute('href', 'http://' + museo.contacto.web);
 			aContacto.setAttribute('target', '_blank');
@@ -189,6 +184,7 @@ function mostrarMuseo() {
 			pContacto = document.createElement('p');
 			pContacto.appendChild(aContacto);
 
+			// liContacto.innerHTML = '<aside class="icon comms-icon contacts-email">'; 
 			liContacto.appendChild(pContacto);
 
 			document.querySelector('#mus-contacto').appendChild(liContacto);
@@ -199,11 +195,6 @@ function mostrarMuseo() {
 			for (var k = 0; k < museo.contacto.email.length; k++) {
 				liContacto = document.createElement('li');
 
-				pContacto = document.createElement('p');
-				pContacto.innerHTML = 'Correo electrónico';
-
-				liContacto.appendChild(pContacto);
-
 				aContacto = document.createElement('a');
 				aContacto.setAttribute('href', 'mailto:' + museo.contacto.email[k]);
 				aContacto.innerHTML = museo.contacto.email[k];
@@ -211,6 +202,7 @@ function mostrarMuseo() {
 				pContacto = document.createElement('p');
 				pContacto.appendChild(aContacto);
 
+				liContacto.innerHTML = '<aside class="icon comms-icon contacts-email">'; 
 				liContacto.appendChild(pContacto);
 
 				document.querySelector('#mus-contacto').appendChild(liContacto);
@@ -219,11 +211,6 @@ function mostrarMuseo() {
 
 		if (museo.contacto.telefonos.length > 0) {
 			liContacto = document.createElement('li');
-
-			pContacto = document.createElement('p');
-			pContacto.innerHTML = 'Teléfonos';
-
-			liContacto.appendChild(pContacto);
 
 			var telefono = museo.contacto.telefonos[0];
 
@@ -251,6 +238,7 @@ function mostrarMuseo() {
 				pContacto.appendChild(aContacto);
 			}
 
+			liContacto.innerHTML = '<aside class="icon comms-icon contacts-phone">';
 			liContacto.appendChild(pContacto);
 
 			document.querySelector('#mus-contacto').appendChild(liContacto);

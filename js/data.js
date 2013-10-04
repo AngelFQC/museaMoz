@@ -15,7 +15,7 @@ var dataApp = [
 									'El museo posee una colección de minerales y especies de la flora y fauna silvestre de Lambayeque que están en peligro de extinción'
 								],
 								direccion: 'Jr. Atahualpa 481',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Lunes a domingo', horario: '09:00 - 16:00' }
 								],
@@ -46,7 +46,7 @@ var dataApp = [
 									'Cuenta además con una pequeña biblioteca'
 								],
 								direccion: 'Calle J. Quiñones Nº 444 – 448',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Lunes a viernes', horario: '09:00 - 17:00' }
 								],
@@ -66,7 +66,7 @@ var dataApp = [
 									'Se exhiben maquetas del Monitor Huáscar, vitrinas con trofeos y emblemas de la institución, dos bustos del Capitán de Corbeta Elías Aguirre Romero y una maqueta del Combate de Angamos'
 								],
 								direccion: 'Km. 10 Carretera Pimentel',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Lunes a viernes', horario: '07:30 a 16:00' }
 								],
@@ -94,7 +94,7 @@ var dataApp = [
 									'Además se exhiben piezas de castigos y torturas a los esclavizados y elementos de supervivencia en la vida cotidiana'
 								],
 								direccion: 'Calle Independencia 645',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Martes a domingo', horario: '09:00 - 12:30' },
 									{ dias: 'Martes a domingo', horario: '15:00 - 17:00' }
@@ -144,7 +144,7 @@ var dataApp = [
 									'Asimismo, se aprecia recreaciones de tumbas y actividades de la vida cotidiana de la época'
 								],
 								direccion: 'Av. Batán Grande Cdra. 9 S/N. Carretera Pítipo – Ferreñafe',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Martes a domingo', horario: '09:00 - 17:00' }
 								],
@@ -175,7 +175,7 @@ var dataApp = [
 									'Actualmente es el centro de las investigaciones arqueológicas de la región'
 								],
 								direccion: 'Av. Huamachuco S/N',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{
 										dias: 'Lunes a domingo',
@@ -198,7 +198,7 @@ var dataApp = [
 									'Asimismo, presenta recreaciones a escala natural de la llegada de Naylamp'
 								],
 								direccion: 'Huaca Chotuna. Sector Bodegones. Comunidad campesina San José. Carretera Lambayeque – San José',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Lunes a domingo', horario: '08:00 - 15:00' }
 								],
@@ -218,7 +218,7 @@ var dataApp = [
 									'Asimismo, exhibe maquetas de las huacas de la zona arqueológica y explica el proceso de los metales desde la extracción hasta la producción de los bienes culturales'
 								],
 								direccion: '1 km. al este del pueblo de Túcume',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Martes a domingo', horario: '09:00 - 17:00' }
 								],
@@ -240,7 +240,7 @@ var dataApp = [
 									'En las salas se exhibe una colección de bienes culturales distribuidos temáticamente: cerámica; material orgánico, como pectorales de concha, tocados de algodón y adornos de plumas; y metal, como estandartes, coronas, orejeras de oro con turquesas y sonajeros, entre otros'
 								],
 								direccion: 'Av. Juan Pablo Vizcardo y Guzmán N° 895',
-                coordenadas: [ { latitud: null, longitud: null } ],
+				coordenadas: [ { latitud: null, longitud: null } ],
 								atencion: [
 									{ dias: 'Martes a domingo', horario: '09:00 - 17:00' }
 								],
@@ -273,10 +273,10 @@ var dataApp = [
 								coleccion: 'Arqueología, Antropología y Etnografía',
 								descripcion: [
 									'Ubicado en el distrito de Pueblo Libre en la ciudad de Lima, el museo nacional tiene una enorme variedad de objetos culturales históricos de la civilización peruana.',
-                  'La calidad de los objetos que están en exhibición y que se almacenan en sus reservas museográficas, lo convierten en el museo más importante del Perú.'
+				  'La calidad de los objetos que están en exhibición y que se almacenan en sus reservas museográficas, lo convierten en el museo más importante del Perú.'
 								],
 								direccion: 'Plaza Bolívar s/n',
-                coordenadas: [ { latitud: "-12.073611", longitud: "-77.061667" } ],
+				coordenadas: [ { latitud: "-12.073611", longitud: "-77.061667" } ],
 								atencion: [
 									{ dias: 'Martes a sábado', horario: '09:00 - 17:00' },
 									{ dias: 'Domingo', horario: '09:00 - 16:00' },
@@ -291,8 +291,8 @@ var dataApp = [
 							}
 						]
 					},
-        ]
-      }
-    ]
+		]
+	  }
+	]
   }
 ];
