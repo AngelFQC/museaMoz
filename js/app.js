@@ -139,9 +139,7 @@ function mostrarMuseo() {
 		document.querySelector('#mus-nombre').innerHTML = museo.nombre;
 		document.querySelector('#mus-coleccion').innerHTML = museo.coleccion;
 		document.querySelector('#mus-direccion').innerHTML = museo.direccion;
-		document.querySelector('#mus-distrito').innerHTML = dataApp[idDpto].provincias[idProv].distritos[idDist].nombre;
-		document.querySelector('#mus-provincia').innerHTML = dataApp[idDpto].provincias[idProv].nombre;
-		document.querySelector('#mus-departamento').innerHTML = dataApp[idDpto].nombre;
+		document.querySelector('#mus-distritopd').innerHTML = dataApp[idDpto].provincias[idProv].distritos[idDist].nombre + ', ' + dataApp[idDpto].nombre +'.';
 
 		var pDescripcion;
 
