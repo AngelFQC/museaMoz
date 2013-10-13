@@ -19,14 +19,14 @@ var dataApp = [
                 coordenadas: [ { latitud: null, longitud: null} ],
 								atencion: [
 									{ dias: 'Martes a domingo', horario: '08:00 - 13:00' },
-									{ dias: 'Martes a domingo', horario: '15:00 - 17:45' },
+									{ dias: 'Martes a domingo', horario: '15:00 - 17:45' }
 								],
 								contacto: {
 									email: [ 'amazonas@mcultura.gob.pe' ],
 									telefonos: [
-                    { numeroMarcar: '+5141477045', numeroMostrar: '(041) 477045' },
+                    { numeroMarcar: '+5141477045', numeroMostrar: '(041) 477045' }
 									],
-									web: 'www.museoleymebamba.org';
+									web: 'www.museoleymebamba.org'
 								}
 							}
 						]
@@ -44,12 +44,12 @@ var dataApp = [
 								direccion: 'Jr. San Roque s/n',
                 coordenadas: [ { latitud: null, longitud: null} ],
 								atencion: [
-									{ dias: 'Previa coordinación con el Guía Comunal', horario: '' },
+									{ dias: 'Previa coordinación con el Guía Comunal', horario: '' }
 								],
 								contacto: {
 									email: [ ],
 									telefonos: [ ],
-									web: null;
+									web: null
 								}
 							}
 						]
@@ -75,7 +75,7 @@ var dataApp = [
                     { numeroMarcar: '+5141816803', numeroMostrar: '(041) 816803' },
                     { numeroMarcar: '+5141816806', numeroMostrar: '(041) 816806' }
 									],
-									web: 'www.museoleymebamba.org';
+									web: 'www.museoleymebamba.org'
 								}
 							}
 						]
