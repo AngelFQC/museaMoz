@@ -144,7 +144,7 @@ var dataApp = [
 				]
 			}
 		],
-    
+    [
 			{ // Segundo nivel: Provincias
 				nombre: 'Cusco',
 				distritos: [
