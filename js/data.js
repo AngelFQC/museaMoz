@@ -1,4 +1,183 @@
 var dataApp = [
+  { // Primer nivel: Regiones del país
+		nombre: 'Amazonas',
+		provincias: [
+			{ // Segundo nivel: Provincias
+				nombre: 'Chachapoyas',
+				distritos: [
+					{ // Tercer nivel: Distritos
+						nombre: 'Chachapoyas',
+						museos: [
+							{ // Cuarto nivel: Museos
+								nombre: 'Sala de exhibición Gilberto Tenorio Ruiz',
+								coleccion: 'Arqueológica',
+								descripcion: [
+									'Comprende tres salas en las que se exhiben bienes culturales de la cultura Chachapoyas que, en su mayoría, corresponden a donaciones de los pobladores locales.',
+                  'En la primera sala se presentan bienes culturales de cerámica de estilo Chachapoyas con influencia Cajamarca; en la segunda, bienes líticos y cerámica de estilo Inca; y en la tercera, momias y material orgánico.'
+								],
+								direccion: 'Jr. Ayacucho 904',
+                coordenadas: [ { latitud: null, longitud: null} ],
+								atencion: [
+									{ dias: 'Martes a domingo', horario: '08:00 - 13:00' },
+									{ dias: 'Martes a domingo', horario: '15:00 - 17:45' },
+								],
+								contacto: {
+									email: [ 'amazonas@mcultura.gob.pe' ],
+									telefonos: [
+                    { numeroMarcar: '+5141477045', numeroMostrar: '(041) 477045' },
+									],
+									web: 'www.museoleymebamba.org';
+								}
+							}
+						]
+					},
+					{ // Tercer nivel: Distritos
+						nombre: 'La Jalca Grande',
+						museos: [
+							{ // Cuarto nivel: Museos
+								nombre: 'Sala de exposición Jalca Grande, Historia, Naturaleza y Cultura Viva',
+								coleccion: 'Arqueológica y etnográfica',
+								descripcion: [
+									'La colección comprende bienes de la cultura Chachapoyas y mapas de sitios, imágenes de entierros de los antiguos habitantes de la zona y vestimenta de los pobladores del distrito de La Jalca.',
+                  'En esta sala se muestra también el mito Juan de Osito, que resalta la importancia del oso de anteojos en los pueblos quechua y aymara.'
+								],
+								direccion: 'Jr. San Roque s/n',
+                coordenadas: [ { latitud: null, longitud: null} ],
+								atencion: [
+									{ dias: 'Previa coordinación con el Guía Comunal', horario: '' },
+								],
+								contacto: {
+									email: [ ],
+									telefonos: [ ],
+									web: null;
+								}
+							}
+						]
+					},
+					{ // Tercer nivel: Distritos
+						nombre: 'Leymebamba',
+						museos: [
+							{ // Cuarto nivel: Museos
+								nombre: 'Museo Leymebamba',
+								coleccion: 'Arqueológica y etnográfica',
+								descripcion: [
+									'El museo alberga una colección de más de 150 momias, ofrendas funerarias Py otros bienes culturales que fueron hallados en la Laguna de Los Cóndores durante el proyecto arqueológico de emergencia.',
+                  'Estas tareas de rescate permitieron recuperar bienes culturales que datan desde la cultura Chachapoyas hasta la presencia Inca en la región, así como bienes etnográficos de la zona, que ahora forman parte del fondo del museo.'
+								],
+								direccion: 'Av. Austria s/n, San Miguel',
+                coordenadas: [ { latitud: null, longitud: null} ],
+								atencion: [
+									{ dias: 'Martes a domingo', horario: '09:30 - 16:30' },
+								],
+								contacto: {
+									email: [ 'leymebamba@museoleymebamba.org' ],
+									telefonos: [
+                    { numeroMarcar: '+5141816803', numeroMostrar: '(041) 816803' },
+                    { numeroMarcar: '+5141816806', numeroMostrar: '(041) 816806' }
+									],
+									web: 'www.museoleymebamba.org';
+								}
+							}
+						]
+					},
+				]
+			}
+		]
+	},
+  { // Primer nivel: Regiones del país
+		nombre: 'Cusco',
+		provincias: [
+			{ // Segundo nivel: Provincias
+				nombre: 'Urubamba',
+				distritos: [
+					{ // Tercer nivel: Distritos
+						nombre: 'Chincheros',
+						museos: [
+							{ // Cuarto nivel: Museos
+								nombre: 'Museo de Sitio Chincheros',
+								coleccion: 'Arqueológica',
+								descripcion: [
+									'La mayor parte de bienes culturales que exhibe este museo proviene de las investigaciones arqueológicas desarrolladas en la zona.',
+                  'Posee metales, cerámica ceremonial y utilitaria, morteros y una escultura lítica que representa un puma.',
+                  'La colección etnográfica está conformada por instrumentos de labranza, textiles y vestimenta típica de la zona.'
+								],
+								direccion: 'Plazoleta del Conjunto Arqueológico de Chincheros, Urubamba.',
+				coordenadas: [ { latitud: null, longitud: null } ],
+								atencion: [
+									{ dias: 'Martes a domingo', horario: '09:00 - 19:00' },
+								],
+								contacto: {
+									email: [ 'museos@drc-cusco.gob.pe' ],
+									telefonos: [
+										{ numeroMarcar: '+5184223245', numeroMostrar: '(084) 223245' }
+									],
+									web: null
+								}
+							}
+            ]
+          },
+          {
+            nombre: 'Machu Picchu',
+            museos: [
+							{ // Cuarto nivel: Museos
+								nombre: 'Museo de Sitio Manuel Chávez Ballón',
+								coleccion: 'Arqueológica',
+								descripcion: [
+									'El museo se ubica a 1.7 km. de Aguas Calientes.',
+                   'La exhibición comprende cerámica, líticos, metales, osamentas, entre otros, procedentes de las investigaciones realizadas en el Santuario Histórico de Machu Picchu.'
+								],
+								direccion: 'Altura del Antiguo Puente Ruinas, km. 112 vía férrea',
+                coordenadas: [ { latitud: null, longitud: null } ],
+								atencion: [
+									{ dias: 'Lunes a domingo', horario: '09:00 - 16:30' },
+								],
+								contacto: {
+									email: [ 'museodesitiomapi@drc-cusco.gob.pe' ],
+									telefonos: [
+										{ numeroMarcar: '+5184211067', numeroMostrar: '(084) 211067' }
+									],
+									web: null
+								}
+							}
+						]
+					},
+				]
+			}
+		],
+    
+			{ // Segundo nivel: Provincias
+				nombre: 'Cusco',
+				distritos: [
+					{ // Tercer nivel: Distritos
+						nombre: 'Cusco',
+						museos: [
+							{ // Cuarto nivel: Museos
+								nombre: 'Museo Histórico Regional del Cusco',
+								coleccion: 'Arqueológica, histórico-artística, etnográfica',
+								descripcion: [
+									'El museo ocupa la casa del cronista mestizo Inca Garcilaso de la Vega.',
+                  'En sus catorce salas se exhiben bienes culturales arqueológicos, etnográficos e histórico-artísticos, entre los que destacan pinturas de la Escuela Cusqueña.'
+								],
+								direccion: 'Calle Heladeros s/n Casa del Inca Garcilaso de la Vega, Cusco.',
+                coordenadas: [ { latitud: null, longitud: null } ],
+								atencion: [
+									{ dias: 'Lunes a sábado', horario: '08:00 - 18:00' },
+									{ dias: 'Domingos', horario: '09:00 - 13:00' },
+								],
+								contacto: {
+									email: [ 'museos@drc-cusco.gob.pe' ],
+									telefonos: [
+										{ numeroMarcar: '+5184223245', numeroMostrar: '(084) 223245' }
+									],
+									web: null
+								}
+							}
+            ]
+          }
+				]
+			}
+		]
+	},
 	{ // Primer nivel: Regiones del país
 		nombre: 'Lambayeque',
 		provincias: [
