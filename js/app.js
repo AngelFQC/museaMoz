@@ -127,7 +127,6 @@ function mostrarDistrito() {
 	}
 
 	document.querySelector('#dist').className = 'current';
-	document.querySelector('[data-position="current"]').className = 'left';
 }
 
 function mostrarMuseo() {
@@ -250,7 +249,6 @@ function mostrarMuseo() {
 		}
 
 	document.querySelector('#museo').className = 'current';
-	document.querySelector('[data-position="current"]').className = 'left';
 }
 
 listarDepartamentos();
