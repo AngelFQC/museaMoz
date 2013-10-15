@@ -28,7 +28,7 @@ document.querySelector('#btn-museo-back').addEventListener ('click', function ()
 
 	document.querySelector('#mus-descripcion').innerHTML = '';
 	document.querySelector('#mus-atencion').innerHTML = '';
-	document.querySelector('#mus-detail-contacto').innerHTML = '';
+	document.querySelector('#mus-contacto').innerHTML = '';
 });
 
 function listarDepartamentos() {
@@ -91,8 +91,8 @@ function mostrarDepartamento () {
 		document.querySelector('#lista-provs').appendChild(ul);
 	}
 
-	document.querySelector('[data-position="current"]').className = 'left';
 	document.querySelector('#dpto').className = 'current';
+	document.querySelector('[data-position="current"]').className = 'left';
 }
 
 function mostrarDistrito() {
@@ -126,7 +126,6 @@ function mostrarDistrito() {
 		document.querySelector('#lista-museos').appendChild(li);
 	}
 
-	document.querySelector('[data-position="current"]').className = 'left';
 	document.querySelector('#dist').className = 'current';
 }
 
@@ -170,14 +169,6 @@ function mostrarMuseo() {
 			document.querySelector('#mus-atencion').appendChild(liAtencion);
 		}
 
-<<<<<<< HEAD
-		if (museo.contacto.email.length == 0 && museo.contacto.telefonos.length == 0 && museo.contacto.web == null) {
-			document.querySelector('#mus-contacto').classList.add('hidden');
-		} else {
-			document.querySelector('#mus-contacto').classList.remove('hidden');
-
-			var liContacto, aContacto, pContacto;
-=======
 		var liContacto, aContacto, pContacto;
 
 		if (museo.contacto.web != null) {
@@ -193,95 +184,65 @@ function mostrarMuseo() {
 
 			// liContacto.innerHTML = '<aside class="icon comms-icon contacts-email">'; 
 			liContacto.appendChild(pContacto);
->>>>>>> 3b798e7afbe5711464693195ec13a91732291e58
 
-			if (museo.contacto.web != null) {
+			document.querySelector('#mus-contacto').appendChild(liContacto);
+		}
+
+
+		if (museo.contacto.email.length > 0) {
+			for (var k = 0; k < museo.contacto.email.length; k++) {
 				liContacto = document.createElement('li');
 
 				aContacto = document.createElement('a');
-				aContacto.setAttribute('href', 'http://' + museo.contacto.web);
-				aContacto.setAttribute('target', '_blank');
-				aContacto.innerHTML = museo.contacto.web;
+				aContacto.setAttribute('href', 'mailto:' + museo.contacto.email[k]);
+				aContacto.innerHTML = museo.contacto.email[k];
 
 				pContacto = document.createElement('p');
 				pContacto.appendChild(aContacto);
 
-<<<<<<< HEAD
-				// liContacto.innerHTML = '<aside class="icon comms-icon contacts-email">'; 
-=======
 				liContacto.innerHTML = '<aside class="icon comms-icon contacts-email">'; 
->>>>>>> 3b798e7afbe5711464693195ec13a91732291e58
 				liContacto.appendChild(pContacto);
 
-				document.querySelector('#mus-detail-contacto').appendChild(liContacto);
+				document.querySelector('#mus-contacto').appendChild(liContacto);
 			}
+		}
 
+		if (museo.contacto.telefonos.length > 0) {
+			liContacto = document.createElement('li');
 
-<<<<<<< HEAD
-			if (museo.contacto.email.length > 0) {
-				for (var k = 0; k < museo.contacto.email.length; k++) {
-					liContacto = document.createElement('li');
-
-					aContacto = document.createElement('a');
-					aContacto.setAttribute('href', 'mailto:' + museo.contacto.email[k]);
-					aContacto.innerHTML = museo.contacto.email[k];
-
-					pContacto = document.createElement('p');
-					pContacto.appendChild(aContacto);
-=======
 			var telefono = museo.contacto.telefonos[0];
->>>>>>> 3b798e7afbe5711464693195ec13a91732291e58
 
-					liContacto.innerHTML = '<aside class="icon comms-icon contacts-email">'; 
-					liContacto.appendChild(pContacto);
+			aContacto = document.createElement('a');
+			aContacto.setAttribute('href', 'tel:' + telefono.numeroMarcar);
+			aContacto.innerHTML = telefono.numeroMostrar;
 
-					document.querySelector('#mus-detail-contacto').appendChild(liContacto);
-				}
-			}
+			pContacto = document.createElement('p');
+			pContacto.appendChild(aContacto);
 
-			if (museo.contacto.telefonos.length > 0) {
-				liContacto = document.createElement('li');
+			var spanContacto;
 
-				var telefono = museo.contacto.telefonos[0];
+			for (var l = 1; l < museo.contacto.telefonos.length; l++) {
+				spanContacto = document.createElement('span');
+				spanContacto.innerHTML = ' / ';
+
+				pContacto.appendChild(spanContacto);
+
+				telefono = museo.contacto.telefonos[l];
 
 				aContacto = document.createElement('a');
 				aContacto.setAttribute('href', 'tel:' + telefono.numeroMarcar);
 				aContacto.innerHTML = telefono.numeroMostrar;
 
-				pContacto = document.createElement('p');
 				pContacto.appendChild(aContacto);
+			}
 
-<<<<<<< HEAD
-				var spanContacto;
-
-				for (var l = 1; l < museo.contacto.telefonos.length; l++) {
-					spanContacto = document.createElement('span');
-					spanContacto.innerHTML = ' / ';
-
-					pContacto.appendChild(spanContacto);
-=======
 			liContacto.innerHTML = '<aside class="icon comms-icon contacts-phone">';
 			liContacto.appendChild(pContacto);
->>>>>>> 3b798e7afbe5711464693195ec13a91732291e58
 
-					telefono = museo.contacto.telefonos[l];
-
-					aContacto = document.createElement('a');
-					aContacto.setAttribute('href', 'tel:' + telefono.numeroMarcar);
-					aContacto.innerHTML = telefono.numeroMostrar;
-
-					pContacto.appendChild(aContacto);
-				}
-
-				liContacto.innerHTML = '<aside class="icon comms-icon contacts-phone">';
-				liContacto.appendChild(pContacto);
-
-				document.querySelector('#mus-detail-contacto').appendChild(liContacto);
-			}
+			document.querySelector('#mus-contacto').appendChild(liContacto);
 		}
 
 	document.querySelector('#museo').className = 'current';
-	document.querySelector('[data-position="current"]').className = 'left';
 }
 
 listarDepartamentos();
