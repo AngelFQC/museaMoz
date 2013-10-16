@@ -5,21 +5,10 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<title>museaMoz</title>
 	<!-- Building blocks -->
-	<!-- <link rel="stylesheet" href="style/action_menu.css">
-	<link rel="stylesheet" href="style/buttons.css">
-	<link rel="stylesheet" href="style/confirm.css">
-	<link rel="stylesheet" href="style/edit_mode.css"> -->
 	<link rel="stylesheet" href="style/headers.css">
-	<!-- <link rel="stylesheet" href="style/input_areas.css">
-	<link rel="stylesheet" href="style/status.css">
-	<link rel="stylesheet" href="style/switches.css"> -->
 	<link rel="stylesheet" href="style_unstable/drawer.css">
 	<link rel="stylesheet" href="style_unstable/lists.css">
-	<!-- <link rel="stylesheet" href="style_unstable/progress_activity.css"> -->
 	<link rel="stylesheet" href="style_unstable/scrolling.css">
-	<!-- <link rel="stylesheet" href="style_unstable/seekbars.css">
-	<link rel="stylesheet" href="style_unstable/tabs.css">
-	<link rel="stylesheet" href="style_unstable/toolbars.css"> -->
 
 	<!-- Icons -->
 	<link rel="stylesheet" href="icons/styles/action_icons.css">
@@ -237,7 +226,7 @@
 	<section id="index" data-position="current">
 		<section data-type="sidebar">
 			<header>
-				<h1>Departamentos</h1>
+				<h1>Regiones</h1>
 			</header>
 			<nav>
 				<ul id="lista-dptos"></ul>
@@ -258,23 +247,20 @@
 				<header>
 					<h2>Guía de museos del Perú</h2>
 				</header>
-				<p class="micro">Nota:</p>
-				<p class="small">Por el momento solo se muestra información de los museos de los departamentos de Amazonas, Cusco, Lambayeque, Lima e Ica.</p>
 				<div data-type="list">
 					<header>Instrucciones</header>
 					<br>
 				</div>
 				<ol class="order">
-					<li>Seleccione un departamento de la lista del menú lateral</li>
-					<li>La lista de museos se encuentra de acuerdo a los distritos de cada provincia del departamento seleccionado</li>
-					<li>Seleccione un distrito</li>
+					<li>Empieza seleccionando una región en el menú lateral</li>
+					<li>Los museos de muestran de acuerdo a la provincia y distrito donde se ubican</li>
 				</ol>
 				<br><br>
 			</article>
 		</section>
 	</section>
 
-	<!--···························· Departamento ····························-->
+	<!--···························· Región ····························-->
 	<section role="region" id="dpto" data-position="right">
 		<header class="fixed">
 			<a id="btn-dpto-back" href="#"><span class="icon icon-back">back</span></a>
@@ -282,23 +268,8 @@
 		</header>
 
 		<article class="content scrollable header">
-			<header><h2 id="dpto-nombre">Departamento de <em></em></h2></header>
+			<header><h2 id="dpto-nombre">Región de <em></em></h2></header>
 			<div data-type="list" id="lista-provs">
-			</div>
-		</article>
-	</section>
-
-	<!--···························· Distrito ····························-->
-	<section role="region" id="dist" data-position="right">
-		<header class="fixed">
-			<a id="btn-dist-back" href="#"><span class="icon icon-back">back</span></a>
-			<h1>museaMoz</h1>
-		</header>
-
-		<article class="content scrollable header">
-			<header><h2 id="dist-nombre">Distrito de <em></em></h2></header>
-			<div data-type="list">
-				<ul id="lista-museos" class="texto-completo"></ul>
 			</div>
 		</article>
 	</section>
@@ -371,11 +342,15 @@
 		</article>
 	</section>
 
-
 	<script type="text/javascript" defer src="js/status.js"></script>
 	<script type="text/javascript" defer src="js/seekbars.js"></script>
 
-	<script type="text/javascript" defer src="js/data.js"></script>
+	<script type="text/javascript" defer src="js/dataClasses.js"></script>
+	<script type="text/javascript" defer src="js/dataAmazonas.js"></script>
+	<script type="text/javascript" defer src="js/dataAnchash.js"></script>
+	<script type="text/javascript" defer src="js/dataApurimac.js"></script>
+	<script type="text/javascript" defer src="js/dataArequipa.js"></script>
+	<script type="text/javascript" defer src="js/dataAyacucho.js"></script>
 	<script type="text/javascript" defer src="js/app.js"></script>
 </body>
 </html>
