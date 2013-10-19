@@ -20,7 +20,7 @@ document.querySelector('#btn-museo-back').addEventListener ('click', function ()
 	document.querySelector('[data-position="current"]').className = 'current';
 
 	document.querySelector('#mus-descripcion').innerHTML = '';
-	document.querySelector('#mus-atencion').innerHTML = '';
+	document.querySelector('#mus-atencion-detail').innerHTML = '';
 	document.querySelector('#mus-contacto-detail').innerHTML = '';
 });
 
@@ -120,22 +120,28 @@ function mostrarMuseo() {
 			document.querySelector('#mus-descripcion').appendChild(pDescripcion);
 		}
 
-		var liAtencion, pAtencion;
+		if (museo.atencion.length == 0) {
+			document.querySelector('#mus-atencion').classList.add('hidden');
+		} else {
+			document.querySelector('#mus-atencion').classList.remove('hidden');
 
-		for (var j = 0; j < museo.atencion.length; j++) {
-			liAtencion = document.createElement('li');
+			var liAtencion, pAtencion;
 
-			pAtencion = document.createElement('p');
-			pAtencion.innerHTML = museo.atencion[j].dias;
+			for (var j = 0; j < museo.atencion.length; j++) {
+				liAtencion = document.createElement('li');
 
-			liAtencion.appendChild(pAtencion);
+				pAtencion = document.createElement('p');
+				pAtencion.innerHTML = museo.atencion[j].dias;
 
-			pAtencion = document.createElement('p');
-			pAtencion.innerHTML = museo.atencion[j].horario;
+				liAtencion.appendChild(pAtencion);
 
-			liAtencion.appendChild(pAtencion);
+				pAtencion = document.createElement('p');
+				pAtencion.innerHTML = museo.atencion[j].horario;
 
-			document.querySelector('#mus-atencion').appendChild(liAtencion);
+				liAtencion.appendChild(pAtencion);
+
+				document.querySelector('#mus-atencion-detail').appendChild(liAtencion);
+			}
 		}
 
 		if (museo.contacto.emails.length == 0 && museo.contacto.telefonos.length == 0 && museo.contacto.web == null) {
