@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="style/headers.css">
 	<link rel="stylesheet" href="style_unstable/drawer.css">
 	<link rel="stylesheet" href="style_unstable/lists.css">
-	<link rel="stylesheet" href="style_unstable/scrolling.css">
 
 	<!-- Icons -->
 	<link rel="stylesheet" href="icons/styles/action_icons.css">
@@ -153,38 +152,6 @@
 			width: 3.5rem;
 		}
 
-		/* Switches */
-		#switches label:last-child {
-			margin-left: 2rem;  
-		}
-
-		/* Scrolling */
-		nav[data-type="scrollbar"] {
-			padding-top: 1rem;
-		}
-		nav[data-type="scrollbar"] p {
-			opacity: 1;
-		}
-
-		/* Seek bars */
-		div[role="slider"] > label.icon {
-			background: no-repeat right top;
-			background-size: 3rem auto;
-		}
-		
-		/* Tabs */
-		#tabs .content {
-			padding: 0;
-		}
-		#tabs .content .content {
-			padding: 1.5rem 3rem;
-		}
-
-		/* Filters */
-		[role="tablist"][data-type="filter"] {
-			margin-bottom: 2rem;
-		}
-
 		.bottom[role="tablist"][data-type="filter"] {
 			bottom: auto;
 		}
@@ -268,7 +235,7 @@
 		</header>
 
 		<article class="content scrollable header">
-			<header><h2 id="dpto-nombre">Región de <em></em></h2></header>
+			<header><h2 id="dpto-nombre">Región <em></em></h2></header>
 			<div data-type="list" id="lista-provs">
 			</div>
 		</article>
@@ -312,11 +279,11 @@
 	<section role="region" id="about" data-position="right">
 		<header class="fixed">
 			<a id="btn-about-back" href="#"><span class="icon icon-back">back</span></a>
-			<h1>Acerca de</h1>
+			<h1>museaMoz</h1>
 		</header>
 
 		<article class="content scrollable header">
-			<header><h2>museaMoz</h2></header>
+			<header><h2>Acerca de</h2></header>
 			<p>La información acerca de los museos ha sido obtenida de la Guía de Museos del Perú (segunda edición, 2012) del <a target="_blank" href="http://www.mcultura.gob.pe">Ministerio de Cultura</a>.</p>
 			<p>Los horarios de atención son referenciales y sujetos a cambios.</p>
 			<div data-type="list">
@@ -342,15 +309,16 @@
 		</article>
 	</section>
 
-	<script type="text/javascript" defer src="js/status.js"></script>
-	<script type="text/javascript" defer src="js/seekbars.js"></script>
-
 	<script type="text/javascript" defer src="js/dataClasses.js"></script>
 	<script type="text/javascript" defer src="js/dataAmazonas.js"></script>
 	<script type="text/javascript" defer src="js/dataAnchash.js"></script>
 	<script type="text/javascript" defer src="js/dataApurimac.js"></script>
 	<script type="text/javascript" defer src="js/dataArequipa.js"></script>
 	<script type="text/javascript" defer src="js/dataAyacucho.js"></script>
+	<script type="text/javascript" defer src="js/dataCajamarca.js"></script>
+	<script type="text/javascript" defer src="js/dataCallao.js"></script>
+	<script type="text/javascript" defer src="js/dataLambayeque.js"></script>
+
 	<script type="text/javascript" defer src="js/app.js"></script>
 </body>
 </html>
