@@ -88,4 +88,4 @@ region = new museaMoz.Region('Ica');
 
 	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);
