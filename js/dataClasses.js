@@ -37,6 +37,11 @@ museaMoz = {
 		this.addCosto = function (_concepto, _precio) {
 			this.costos.push(new museaMoz.Costo(_concepto, _precio));
 		}
+
+		this.setCoordenadas = function (_latitud, _longitud) {
+			this.coordenadas.latitud = _latitud;
+			this.coordenadas.longitud = _longitud;
+		}
 	},
 
 	Coordenadas : function (_latitud, _longitud) {
@@ -72,7 +77,7 @@ museaMoz = {
 
 	Costo : function (_concepto, _precio) {
 		this.concepto = _concepto;
-		this.precio = _precio;
+		this.precio = (new Number(_precio)).toFixed(2);
 	}
 }
 
