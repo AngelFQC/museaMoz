@@ -12,7 +12,7 @@ region = new museaMoz.Region('Ayacucho');
 			museo.addAtencion('Lunes a domingo', '15:00 - 18:00');
 			museo.contacto.addTelefono('066', '317170');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Histórico Mariscal Andrés A. Cáceres');
 			museo.coleccion = 'Histórico-artística';
@@ -25,7 +25,7 @@ region = new museaMoz.Region('Ayacucho');
 			museo.addAtencion('Sábado', '09:00 - 13:00');
 			museo.contacto.addTelefono('066', '836166');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Histórico Regional "Hipólito Unanue"');
 			museo.coleccion = 'Arqueológica e histórico-artística';
@@ -36,9 +36,9 @@ region = new museaMoz.Region('Ayacucho');
 			museo.contacto.addEmail('ayacucho@mcultura.gob.pe');
 			museo.contacto.addTelefono('066', '312056');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Quinua');
 
@@ -53,7 +53,7 @@ region = new museaMoz.Region('Ayacucho');
 			museo.contacto.addEmail('ayacucho@mcultura.gob.pe');
 			museo.contacto.addTelefono('066', '312056');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Sitio Wari');
 			museo.coleccion = 'Arqueológica';
@@ -63,10 +63,10 @@ region = new museaMoz.Region('Ayacucho');
 			museo.contacto.addEmail('ayacucho@mcultura.gob.pe');
 			museo.contacto.addTelefono('066', '312056');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

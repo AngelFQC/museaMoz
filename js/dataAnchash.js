@@ -12,11 +12,11 @@ region = new museaMoz.Region('Áncash');
 			museo.addAtencion('Lunes a sábado', '08:00 - 17:00');
 			museo.contacto.addTelefono('043', '445031');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Huaraz');
 
@@ -32,9 +32,9 @@ region = new museaMoz.Region('Áncash');
 			museo.contacto.addEmail('ancash@mcultura.gob.pe');
 			museo.contacto.addTelefono('043', '421551');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Independencia');
 
@@ -47,11 +47,11 @@ region = new museaMoz.Region('Áncash');
 			museo.contacto.addEmail('ancash@mcultura.gob.pe');
 			museo.contacto.addTelefono('043', '421829');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Pallasca');
 
@@ -67,11 +67,11 @@ region = new museaMoz.Region('Áncash');
 			museo.contacto.addEmail('ancash@mcultura.gob.pe');
 			museo.contacto.addTelefono('043', '421829');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Yungay');
 
@@ -85,11 +85,11 @@ region = new museaMoz.Region('Áncash');
 			museo.contacto.addEmail('ancash@mcultura.gob.pe');
 			museo.contacto.addTelefono('043', '442051');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Asunción');
 
@@ -101,11 +101,11 @@ region = new museaMoz.Region('Áncash');
 			museo.direccion = 'Plaza de Armas s/n';
 			museo.addAtencion('Lunes a sábado', '08:00 - 17:00');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Huari');
 
@@ -121,11 +121,11 @@ region = new museaMoz.Region('Áncash');
 			museo.contacto.addEmail('ancash@mcultura.gob.pe');
 			museo.contacto.addTelefono('043', '454011');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Casma');
 
@@ -140,10 +140,10 @@ region = new museaMoz.Region('Áncash');
 			museo.contacto.addEmail('ancash@mcultura.gob.pe');
 			museo.contacto.addTelefono('043', '421829');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

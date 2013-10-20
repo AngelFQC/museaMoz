@@ -16,11 +16,11 @@ region = new museaMoz.Region('Ica');
 			museo.contacto.addEmail('ica@mcultura.gob.pe');
 			museo.contacto.addTelefono('056', '234383');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Nasca');
 
@@ -36,7 +36,7 @@ region = new museaMoz.Region('Ica');
 			museo.addAtencion('Domingos y feriados', '08:00 - 18:00');
 			museo.contacto.addEmail('areichelinasca@hotmail.com');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Didáctico Antonini');
 			museo.coleccion = 'Arqueológica';
@@ -48,11 +48,11 @@ region = new museaMoz.Region('Ica');
 			museo.contacto.addTelefono('056', '523100');
 			museo.contacto.addEmail('cahuachi@terra.com.pe');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Pisco');
 
@@ -68,9 +68,9 @@ region = new museaMoz.Region('Ica');
 			museo.contacto.addEmail('ica@mcultura.gob.pe');
 			museo.contacto.addTelefono('056', '234383');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Paracas');
 
@@ -82,10 +82,10 @@ region = new museaMoz.Region('Ica');
 			museo.coordenadas = new museaMoz.Coordenadas('-13.868209', '-76.2731731')
 			museo.contacto.addTelefono('056', '234383');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 addRegion(region);

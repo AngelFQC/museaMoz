@@ -16,9 +16,9 @@ region = new museaMoz.Region('Amazonas');
 			museo.contacto.addTelefono('041', '816803');
 			museo.contacto.addTelefono('041', '816806');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Chachapoyas');
 
@@ -31,9 +31,9 @@ region = new museaMoz.Region('Amazonas');
 			museo.contacto.addEmail('amazonas@mcultura.gob.pe');
 			museo.contacto.addTelefono('041', '477045');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('La Jalca Grande');
 
@@ -44,10 +44,10 @@ region = new museaMoz.Region('Amazonas');
 			museo.direccion = 'Jr. San Roque s/n';
 			museo.addAtencion('Previa coordinación con el Guía Comunal', '');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

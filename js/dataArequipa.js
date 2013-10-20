@@ -13,7 +13,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addTelefono('054', '286613');
 			museo.contacto.addTelefono('054', '200345');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Arqueológico José María Morante de la Universidad Nacional de San Agustín');
 			museo.coleccion = 'Arqueológica';
@@ -23,7 +23,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.web = 'www.unsa.edu.pe';
 			museo.contacto.addTelefono('054', '288881');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Convento La Recoleta');
 			museo.coleccion = 'Arqueológica, histórico-artística y etnográfica';
@@ -34,7 +34,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addEmail('convento_la_recoleta@hotmail.com');
 			museo.contacto.addTelefono('054', '270966');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Arte Contemporáneo');
 			museo.coleccion = 'Histórico-artística';
@@ -46,7 +46,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addEmail('mac_arequipa@yahoo.es');
 			museo.contacto.addTelefono('054', '221068');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Arte Virreinal de Santa Teresa');
 			museo.coleccion = 'Histórico-artística';
@@ -57,7 +57,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addEmail('museocarmelitas@yahoo.es');
 			museo.contacto.addTelefono('054', '281188');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de la Ciudad de Arequipa');
 			museo.coleccion = 'Fotográfica e histórica';
@@ -67,7 +67,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.addAtencion('Lunes a viernes', '09:00 - 17:00');
 			museo.contacto.addTelefono('054', '204081');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo del Banco Central de Reserva de Arequipa');
 			museo.coleccion = 'Numismática, histórico-artística y arqueológica';
@@ -79,7 +79,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addTelefono('054', '212251');
 			museo.contacto.addTelefono('054', '212201');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo del Monasterio de Santa Catalina');
 			museo.coleccion = 'Histórico-artística';
@@ -90,7 +90,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.web = 'www.santacatalina.org.pe';
 			museo.contacto.addTelefono('054', '608282');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo del Periodismo Editora Perú');
 			museo.coleccion = 'Industrial';
@@ -100,7 +100,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addEmail('editoraperu@editoraperu.com.pe');
 			museo.contacto.addTelefono('054', '281172');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo del Tesoro de la Catedral');
 			museo.coleccion = 'Histórico-artística';
@@ -114,7 +114,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addTelefono('054', '213149');
 			museo.contacto.addTelefono('054', '221024');
 			
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Histórico Municipal de Arequipa');
 			museo.coleccion = 'Arqueológica, histórica, artística';
@@ -125,7 +125,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addTelefono('054', '204801');
 			museo.contacto.addTelefono('054', '211021');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Santuarios Andinos');
 			museo.coleccion = 'Arqueológica';
@@ -140,7 +140,7 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addTelefono('054', '286614');
 			museo.contacto.addTelefono('054', '15013');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Tercera Orden Franciscana');
 			museo.coleccion = 'Histórico-artística';
@@ -154,11 +154,11 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.addTelefono('054', '219589');
 			museo.contacto.addTelefono('054', '223048');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Caraveli');
 
@@ -173,11 +173,11 @@ region = new museaMoz.Region('Arequipa');
 			museo.addAtencion('Lunes a sábado', '09:00 - 15:00');
 			museo.contacto.addTelefono('054', '482057');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Caylloma');
 
@@ -192,10 +192,10 @@ region = new museaMoz.Region('Arequipa');
 			museo.contacto.web = 'www.ucsm.edu.pe';
 			museo.contacto.addTelefono('054', '764969');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

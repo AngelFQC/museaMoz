@@ -15,7 +15,7 @@ region = new museaMoz.Region('Loreto');
 			museo.contacto.addTelefono('065', '234031');
 			museo.contacto.addEmail('loreto@mcultura.gob.pe');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Herbario Amazonense');
 			museo.coleccion = 'Ciencias naturales';
@@ -26,10 +26,10 @@ region = new museaMoz.Region('Loreto');
 			museo.contacto.addEmail('fccbb@unapiquitos.edu.pe');
 			museo.contacto.addTelefono('065', '222649');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

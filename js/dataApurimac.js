@@ -14,10 +14,10 @@ region = new museaMoz.Region('Apurímac');
 			museo.contacto.addEmail('apurimac@mcultura.gob.pe');
 			museo.contacto.addTelefono('083', '783178');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

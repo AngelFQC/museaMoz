@@ -4,34 +4,16 @@ museaMoz = {
 	Region : function (_nombre) {
 		this.nombre = _nombre;
 		this.provincias = new Array();
-
-		this.addProvincia = function (_provincia) {
-			var iPro = this.provincias.length;
-
-			this.provincias[iPro] = _provincia;
-		}
 	},
 
 	Provincia : function (_nombre) {
 		this.nombre = _nombre;
 		this.distritos = new Array();
-
-		this.addDistrito = function (_distrito) {
-			var iDis = this.distritos.length;
-
-			this.distritos[iDis] = _distrito;
-		}
 	},
 
 	Distrito : function (_nombre) {
 		this.nombre = _nombre;
 		this.museos = new Array();
-
-		this.addMuseo = function (_museo) {
-			var iMu = this.museos.length;
-
-			this.museos[iMu] = _museo;
-		}
 	},
 
 	Museo : function (_nombre) {
@@ -42,17 +24,18 @@ museaMoz = {
 		this.coordenadas = new museaMoz.Coordenadas(null, null);
 		this.atencion = new Array();
 		this.contacto = new museaMoz.Contacto();
+		this.costos = new Array();
 
 		this.addDescripcion = function (_descripcion) {
-			var iDes = this.descripcion.length;
-
-			this.descripcion[iDes] = _descripcion;
+			this.descripcion.push(_descripcion);
 		}
 
 		this.addAtencion = function (_dias, _horario) {
-			var iA = this.atencion.length;
+			this.atencion.push(new museaMoz.Atencion(_dias, _horario));
+		}
 
-			this.atencion[iA] = new museaMoz.Atencion(_dias, _horario);
+		this.addCosto = function (_concepto, _precio) {
+			this.costos.push(new museaMoz.Costo(_concepto, _precio));
 		}
 	},
 
@@ -72,15 +55,11 @@ museaMoz = {
 		this.web = null;
 
 		this.addEmail = function (_email) {
-			var iEm = this.emails.length;
-
-			this.emails[iEm] = _email;
+			this.emails.push(_email);
 		}
 
 		this.addTelefono = function (_codigo, _numero) {
-			var iTe = this.telefonos.length;
-
-			this.telefonos[iTe] = new museaMoz.Telefono(_codigo, _numero);
+			this.telefonos.push(new museaMoz.Telefono(_codigo, _numero));
 		}
 	},
 
@@ -89,13 +68,12 @@ museaMoz = {
 
 		this.numeroMarcar = '+51' + _codigo + _numero;
 		this.numeroMostrar = '(0' + _codigo + ') ' + _numero;
+	},
+
+	Costo : function (_concepto, _precio) {
+		this.concepto = _concepto;
+		this.precio = _precio;
 	}
-}
-
-function addRegion(_region) {
-	var iDe = dataApp.length;
-
-	dataApp[iDe] = _region;
 }
 
 var region, provincia, distrito, museo;

@@ -11,9 +11,9 @@ region = new museaMoz.Region('Callao');
 			museo.addAtencion('Lunes a sábado', '09:00 - 17:00');
 			museo.contacto.addTelefono('01', '4290318');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Callao');
 
@@ -24,7 +24,7 @@ region = new museaMoz.Region('Callao');
 			museo.addAtencion('Lunes a viernes', '08:00 - 17:00 (previa cita)');
 			museo.contacto.addTelefono('01', '6137100');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Sitio Naval Submarino Abtao');
 			museo.coleccion = 'Histórica e industrial';
@@ -40,7 +40,7 @@ region = new museaMoz.Region('Callao');
 			museo.contacto.addTelefono('01', '7956900');
 			museo.contacto.web = 'www.submarinoabtao.com';
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo del Ejército Fortaleza Real Felipe');
 			museo.coleccion = 'Arqueológica, histórica';
@@ -53,7 +53,7 @@ region = new museaMoz.Region('Callao');
 			museo.contacto.web = 'www.museodelejercito.com.pe';
 			museo.contacto.addTelefono('01', '4290532');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Naval "Capitán de Navío Julio José Elías Murguía" - sede Callao');
 			museo.coleccion = 'Arqueológica, histórica';
@@ -67,10 +67,10 @@ region = new museaMoz.Region('Callao');
 			museo.contacto.web = 'www.museonaval.com.pe';
 			museo.contacto.addTelefono('01', '6136868');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

@@ -13,10 +13,10 @@ region = new museaMoz.Region('Tumbes');
 			museo.contacto.addEmail('tumbes@mcultura.gob.pe');
 			museo.contacto.addTelefono('072', '521936');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

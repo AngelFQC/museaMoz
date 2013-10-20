@@ -12,9 +12,9 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addTelefono('074', '283610');
 			museo.contacto.addTelefono('074', '283146');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Pimentel');
 
@@ -31,7 +31,7 @@ region = new museaMoz.Region('Lambayeque');
 			museo.addAtencion('Lunes a viernes', '09:00 - 17:00');
 			museo.contacto.addTelefono('074', '208417');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo del Colegio Militar "Elías Aguirre"');
 			museo.coleccion = 'Histórica';
@@ -43,9 +43,9 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addTelefono('074', '452919');
 			museo.contacto.web = 'www.cmea.edu.pe';
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Zaña');
 
@@ -62,7 +62,7 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addTelefono('074', '431042');
 			museo.contacto.web = 'www.museoafroperuano.com';
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Sitio Huaca Rajada - Sipán');
 			museo.coleccion = 'Arqueológica';
@@ -72,11 +72,11 @@ region = new museaMoz.Region('Lambayeque');
 			museo.addAtencion('Lunes a domingo', '09:00 - 17:00');
 			museo.contacto.addEmail('museohrsipan@gmail.com');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Ferreñafe');
 
@@ -94,11 +94,11 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addEmail('museosican@hotmail.com'),
 			museo.contacto.addTelefono('074', '286469');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Lambayeque');
 
@@ -114,7 +114,7 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addEmail('museonacionalbruning@yahoo.es');
 			museo.contacto.addTelefono('074', '282110');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Sitio Huaca Chotuna - Chornancap');
 			museo.coleccion = 'Arqueológica';
@@ -125,7 +125,7 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addEmail('museonacionalbruning@yahoo.es');
 			museo.contacto.addTelefono('074', '282110');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Sitio Túcume');
 			museo.coleccion = 'Arqueológica';
@@ -138,7 +138,7 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addTelefono('074', '792758');
 			museo.contacto.web = 'www.museodesitiotucume.org';
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Tumbas Reales de Sipán');
 			museo.coleccion = 'Arqueológica';
@@ -153,10 +153,10 @@ region = new museaMoz.Region('Lambayeque');
 			museo.contacto.addTelefono('074', '283977');
 			museo.contacto.web = 'www.museotumbasrealessipan.pe';
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);

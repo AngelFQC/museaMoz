@@ -11,7 +11,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '08:00 - 14:00');
 			museo.contacto.addTelefono('076', '340440');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Botánico Herbario - Universidad Nacional de Cajamarca');
 			museo.coleccion = 'Ciencias naturales';
@@ -19,7 +19,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.direccion = 'Av. Atahualpa N° 1050, Ciudad Universitaria, Departamento Académico de Ciencias Biológicas, Uiversidad Nacional de Cajamarca';
 			museo.addAtencion('Lunes a viernes', '08:00 - 14:00');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Arqueología y Etnografía del Complejo Monumental Belén');
 			museo.coleccion = 'Arqueológica, histórico-artística y etnográfica';
@@ -32,7 +32,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.addEmail('cajamarca@mcultura.gob.pe');
 			museo.contacto.addTelefono('076', '362601');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Arte Religioso del Convento San Francisco');
 			museo.coleccion = 'Histórico-artística';
@@ -41,7 +41,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a sábado', '09:00 - 17:00');
 			museo.contacto.addTelefono('076', '362994');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Geología y Edafología - Universidad Nacional de Cajamarca')
 			museo.coleccion = 'Paleontología y ciencias naturales';
@@ -49,7 +49,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.direccion = 'Av. Atahualpa N° 1050, Ciudad Universitaria, Gabinete Geología, Universidad Nacional de Cajamarca';
 			museo.addAtencion('Lunes a viernes', '08:00 - 14:00');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Herramientas Andinas - Universidad Nacional de Cajamarca');
 			museo.coleccion = 'Arqueológica y etnográfica';
@@ -59,7 +59,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.addTelefono('076', '367802');
 			museo.contacto.addTelefono('076', '361667');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de la Marioneta');
 			museo.coleccion = 'Artística';
@@ -69,7 +69,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '09:00 - 19:00');
 			museo.contacto.addEmail('museodelamarioneta1@hotmail.com');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo de Zoología - Universidad Nacional de Cajamarca');
 			museo.coleccion = 'Ciencias naturales';
@@ -79,7 +79,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.addTelefono('076', '367802');
 			museo.contacto.addTelefono('076', '361667');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo Entomológico - Universidad Nacional de Cajamarca');
 			museo.coleccion = 'Ciencias naturales';
@@ -89,7 +89,7 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.addTelefono('076', '367802');
 			museo.contacto.addTelefono('076', '361667');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
 			museo = new museaMoz.Museo('Museo I.S.P. Hno. Victorino Elorz Goicochea');
 			museo.coleccion = 'Arqueológica y ciencias naturales';
@@ -99,11 +99,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.web = 'www.isepvictorinoelorz.edu.pe';
 			museo.contacto.addTelefono('076', '362968');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Celendín');
 
@@ -117,11 +117,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '08:30 - 14:30');
 			museo.contacto.addTelefono('076', '552096');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Chota');
 
@@ -134,11 +134,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '09:00 - 13:00');
 			museo.contacto.addTelefono('076', '351034');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Contumazá');
 
@@ -152,11 +152,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '16:00 - 18:30');
 			museo.contacto.addTelefono('076', '576023');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Hualgayoc');
 
@@ -170,11 +170,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.web = 'www.itlbambamarca.com';
 			museo.contacto.addTelefono('076', '353015');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('Jaén');
 
@@ -189,11 +189,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.contacto.web = 'www.museohermogenesmejiasolf.com';
 			museo.contacto.addTelefono('076', '434118');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('San Ignacio');
 
@@ -206,11 +206,11 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '09:00 - 14:00');
 			museo.contacto.addTelefono('076', '356084');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
 	provincia = new museaMoz.Provincia('San Pablo');
 
@@ -223,9 +223,9 @@ region = new museaMoz.Region('Cajamarca');
 			museo.direccion = 'Avenida del Museo s/n Centro Poblado Kuntur Wasi';
 			museo.addAtencion('Martes a domingo', '09:00 - 17:00');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
 		distrito = new museaMoz.Distrito('Cajabamba');
 
@@ -236,10 +236,10 @@ region = new museaMoz.Region('Cajamarca');
 			museo.addAtencion('Lunes a viernes', '09:00 - 17:00');
 			museo.contacto.addTelefono('076', '551329');
 
-			distrito.addMuseo(museo);
+			distrito.museos.push(museo);
 
-		provincia.addDistrito(distrito);
+		provincia.distritos.push(distrito);
 
-	region.addProvincia(provincia);
+	region.provincias.push(provincia);
 
-addRegion(region);
+dataApp.push(region);
