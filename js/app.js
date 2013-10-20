@@ -20,6 +20,7 @@ document.querySelector('#btn-museo-back').addEventListener ('click', function ()
 	document.querySelector('[data-position="current"]').className = 'current';
 
 	document.querySelector('#mus-descripcion').innerHTML = '';
+	document.querySelector('#mus-costos-detail').innerHTML = '';
 	document.querySelector('#mus-atencion-detail').innerHTML = '';
 	document.querySelector('#mus-contacto-detail').innerHTML = '';
 });
@@ -119,6 +120,26 @@ function mostrarMuseo() {
 
 			document.querySelector('#mus-descripcion').appendChild(pDescripcion);
 		}
+
+		if (museo.costos == null) {
+			document.querySelector('#mus-costos-detail').innerHTML = '<li><p>Ingreso gratuito</p></li>';
+		} else if (museo.costos.length == 0) {
+			document.querySelector('#mus-costos-detail').innerHTML = '<li><p>No disponible</p></li>';
+		} else if (museo.costos.length > 0){
+			var liCosto, pCosto;
+
+			for (var i = 0; i < museo.costos.length; i++) {
+				liCosto = document.createElement('li');
+				pCosto = document.createElement('p');
+
+				pCosto.innerHTML = museo.costos[i].concepto + ': S/. ' + museo.costos[i].precio;
+
+				liCosto.appendChild(pCosto);
+
+				document.querySelector('#mus-costos-detail').appendChild(liCosto);
+			}
+		}
+		
 
 		if (museo.atencion.length == 0) {
 			document.querySelector('#mus-atencion').classList.add('hidden');
