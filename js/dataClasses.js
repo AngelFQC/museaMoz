@@ -21,6 +21,7 @@ museaMoz = {
 		this.coleccion = '';
 		this.descripcion = new Array();
 		this.direccion = '';
+    this.keywordFlick = '';
 		this.coordenadas = new museaMoz.Coordenadas(null, null);
 		this.atencion = new Array();
 		this.contacto = new museaMoz.Contacto();

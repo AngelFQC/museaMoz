@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="style/headers.css">
 	<link rel="stylesheet" href="style_unstable/drawer.css">
 	<link rel="stylesheet" href="style_unstable/lists.css">
+	<link rel="stylesheet" href="style_unstable/progress_activity.css">
 
 	<!-- Icons -->
 	<link rel="stylesheet" href="icons/styles/action_icons.css">
@@ -187,6 +188,13 @@
 			list-style-position: outside;
 			margin-left: 2rem;
 		}
+    
+    /*ImagesClass*/
+    .imageclass {
+      margin-right: 5px;
+      width: 125px;
+      height: 125px;
+    }
 	</style>
 </head>
 <body>
@@ -214,15 +222,9 @@
 				<header>
 					<h2>Guía de museos del Perú</h2>
 				</header>
-				<div data-type="list">
-					<header>Instrucciones</header>
-					<br>
-				</div>
-				<ol class="order">
-					<li>Empieza seleccionando una región en el menú lateral</li>
-					<li>Los museos de muestran de acuerdo a la provincia y distrito donde se ubican</li>
-				</ol>
-				<br><br>
+				<p class="small">Para comenzar haz clic en el botón de la esquina superior izquierda.</p>
+        <p class="small">Los museos se muestran por región, provincia y distrito donde se ubican.</p>
+        <div id="images">
 			</article>
 		</section>
 	</section>
@@ -257,6 +259,7 @@
 				</ul>
 			</div>
 			<div id="mus-descripcion"></div>
+      <div id="mus-imagenes"></div>
 			<div data-type="list">
 				<header>Ubicación</header>
 				<ul class="texto-completo">
@@ -288,8 +291,8 @@
 
 		<article class="content scrollable header">
 			<header><h2>Acerca de</h2></header>
-			<p>La información acerca de los museos ha sido obtenida de la Guía de Museos del Perú (segunda edición, 2012) del <a target="_blank" href="http://www.mcultura.gob.pe">Ministerio de Cultura</a>.</p>
-			<p>Los horarios de atención son referenciales y sujetos a cambios.</p>
+			<p class="small">La información acerca de los museos ha sido obtenida de la Guía de Museos del Perú (segunda edición, 2012) del <a target="_blank" href="http://www.mcultura.gob.pe">Ministerio de Cultura</a>.</p>
+			<p class="small">Los horarios de atención son referenciales y sujetos a cambios.</p>
 			<div data-type="list">
 				<header></aside>Créditos</header>
 				<ul>
@@ -312,6 +315,8 @@
 			</div>
 		</article>
 	</section>
+  
+  <script type="text/javascript" defer src="js/jquery.js"></script>
 
 	<script type="text/javascript" defer src="js/dataClasses.js"></script>
 	<script type="text/javascript" defer src="js/dataAmazonas.js"></script>
