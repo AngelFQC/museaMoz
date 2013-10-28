@@ -9,6 +9,7 @@ region = new museaMoz.Region('Loreto');
 			museo.addDescripcion('El museo está ubicado en un edificio construido en el año 1863, declarado Patrimonio Cultural de la Nación. En su interior se aprecia decoración mural, madera tallada y un conjunto de muebles antiguos');
 			museo.addDescripcion('Resalta la colección de esculturas hechas en fibra de vidrio a escala natural confeccionadas por el artista plástico Felipe Lettersten y que representan a pobladores de las principales comunidades nativas de la Amazonía del Perú, Brasil y Venezuela');
 			museo.addDescripcion('Comprende salas de exhibición temporal');
+      museo.keywordFlickr = 'museo+amazonico+iquitos';
 			museo.direccion = 'Malecón Tarapacá Nº 386';
 			museo.addAtencion('Lunes a viernes', '09:00 - 12:30');
 			museo.addAtencion('Lunes a viernes', '14:30 - 17:00');
