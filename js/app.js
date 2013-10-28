@@ -120,6 +120,12 @@ function mostrarMuseo() {
 
 			document.querySelector('#mus-descripcion').appendChild(pDescripcion);
 		}
+    
+    document.querySelector('#mus-imagenes').innerHTML = ''; //always clean area
+    if (museo.keywordFlickr)
+    { 
+      insertImages(museo.keywordFlickr,"#mus-imagenes");
+    }
 
 		if (museo.costos == null) {
 			document.querySelector('#mus-costos-detail').innerHTML = '<li><p>Ingreso gratuito</p></li>';
@@ -245,5 +251,21 @@ function mostrarMuseo() {
 
 	document.querySelector('#museo').className = 'current';
 }
+
+function insertImages(keyword,area)
+{
+  var url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=3f88989f019d9839a86b272ef9de2c2c&sort=relevance&extras=url_q&per_page=4&page=1";
+  var src;
+  document.querySelector(area).innerHTML = '<p class="small"><progress></progress> Cargando imágenes ...</p>';
+  $.getJSON(url + "&text=" + keyword + "&format=json&jsoncallback=?", function(data){
+    $.each(data.photos.photo, function(i,item){
+        if (i==0)   document.querySelector(area).innerHTML = '';
+        src = item.url_q;
+        $("<img/>").attr("src", src).attr("class","imageclass").appendTo(area);
+    });
+  });
+}
+
+insertImages("Tourism+Peru","#images");
 
 listarDepartamentos();
