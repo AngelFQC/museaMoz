@@ -8,6 +8,7 @@ region = new museaMoz.Region('Amazonas');
 			museo.coleccion = 'Arqueológica y etnográfica';
 			museo.addDescripcion('El museo alberga una colección de más de 150 momias, ofrendas funerarias y otros bienes culturales que fueron hallados en la Laguna de Los Cóndores durante el proyecto arqueológico de emergencia');
 			museo.addDescripcion('Estas tareas de rescate permitieron recuperar bienes culturales que datan desde la cultura Chachapoyas hasta la presencia Inca en la región, así como bienes etnográficos de la zona, que ahora forman parte del fondo del museo');
+      museo.keywordFlickr = 'museo+chachapoyas+leymebamba';
 			museo.direccion = 'Av. Austria s/n, San Miguel';
 			museo.addAtencion('Martes a domingo', '09:30 - 16:30');
 			museo.addAtencion('Previa cita', '');
