@@ -254,7 +254,7 @@ function mostrarMuseo() {
 
 function insertImages(keyword,area)
 {
-  var url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=3f88989f019d9839a86b272ef9de2c2c&sort=relevance&extras=url_q&per_page=4&page=1";
+  var url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=3f88989f019d9839a86b272ef9de2c2c&sort=relevance&extras=url_q&per_page=4&page=1";
   var src;
   document.querySelector(area).innerHTML = '<p class="small"><progress></progress> Cargando imágenes ...</p>';
   $.getJSON(url + "&text=" + keyword + "&format=json&jsoncallback=?", function(data){
