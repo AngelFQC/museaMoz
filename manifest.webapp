@@ -2,10 +2,10 @@
 	"name": "museaMoz",
 	"description": "Guía de Museos del Perú. Incluye museos de Amazonas, Ancash, Apurimac, Ayacucho, Cajamarca, Callao, Cusco, Huancavelica, Huanuco, Ica, Junin (Huanuco), Lambayeque (Chiclayo), La  Libertad (Trujillo), Lima, Piura, Puno, San Martín (Moyobamba), Tacna, Tumbes",
 	"version": "2.0",
-	"launch_path": "/museaMoz/index.html",
+	"launch_path": "/index.html",
 	"icons": {
-		"128": "/museaMoz/images/app_icon_128.png",
-		"60": "/museaMoz/images/app_icon_60.png"
+		"128": "/images/app_icon_128.png",
+		"60": "/images/app_icon_60.png"
 	},
 	"developer": {
 		"name": "Angel Fernando Quiroz Campos",
