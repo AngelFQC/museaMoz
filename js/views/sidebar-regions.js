@@ -2,10 +2,22 @@ define([
     'jquery',
     'underscore',
     'backbone',
+    'collections/ubigeos',
     'views/sidebar-region'
-], function($, _, Backbone, SidebarRegionView) {
+], function($, _, Backbone, UbigeosCollection, SidebarRegionView) {
     var SidebarRegionsView = Backbone.View.extend({
         tagName: 'ul',
+        initialize: function() {
+            var self = this;
+
+            this.collection = new UbigeosCollection();
+
+            var ubigeosFetch = this.collection.fetch();
+
+            $.when(ubigeosFetch).done(function() {
+                self.render();
+            });
+        },
         render: function() {
             var regions = this.collection.getRegions();
 

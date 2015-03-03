@@ -17,7 +17,9 @@ define([
         var appRouter = new AppRouter;
         appRouter.on('route:showIndex', function() {
             if (status !== STATUS_INDEX) {
-                new IndexView();
+                var indexView = new IndexView();
+                indexView.render();
+
                 status = STATUS_INDEX;
             }
         });
