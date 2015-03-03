@@ -14,7 +14,8 @@
 	"locales": {
 		"en": {
 			"name": "museaMoz",
-			"description": "Peruvian Museums Guide"
+			"description": "Peruvian Museums Guide. Includes the museums of cities. Amazonas (Chachapoyas), Ancash (Huaraz), Apurimac (Abancay), Arequipa, Ayacucho, Cajamarca, Callao, Cusco, Huancavelica, Huanuco, Ica, Junin (Huanuco), La Libertad (Trujillo), Lambayeque (Chiclayo), Lima, Loreto (Iquitos), Madre de Dios (Puerto Maldonado), Moquegua, Pasco, Piura, Puno, San Martín (Moyobamba), Tacna, Tumbes, Ucayali (Pucallpa)."
 		}
-	}
+	},
+	"default_locale": "es"
 }
