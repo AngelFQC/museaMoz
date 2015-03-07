@@ -4,13 +4,10 @@ define([
     'backbone'
 ], function($, _, Backbone) {
     var FlickrPhotoView = Backbone.View.extend({
-        tagName: 'li',
+        tagName: 'img',
         render: function() {
-            var image = new Image();
-            image.src = this.model.get('src');
-            image.alt = this.model.get('alt');
-
-            this.$el.html(image);
+            this.el.src = this.model.get('src');
+            this.el.alt = this.model.get('alt');
 
             return this;
         }

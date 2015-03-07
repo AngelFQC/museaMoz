@@ -30,30 +30,15 @@ div[role="main"] p {
     height: 100%;
 }
 
-.text-center {
-    text-align: center;
-}
-
-#main-content ul{
-    list-style-type: none;
-    list-style-position: outside;
-    margin: 0;
-    padding: 0 0px;
-}
-#main-content ul li {
+.flickr-photos img {
     float: left;
     margin: 0;
     padding: 0;
     width: calc(100% / 3);
 }
-#main-content ul li img {
-    display: block;
-    height: 100%;
-    width: 100%;
-}
 
 @media (orientation: landscape) {
-    #main-content ul li {
+    .flickr-photos img {
         width: calc(100% / 5);
     }
 }

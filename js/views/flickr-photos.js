@@ -6,7 +6,7 @@ define([
     'views/flickr-photo'
 ], function($, _, Backbone, FlickrPhotosCollection, FlickrPhotoView) {
     var FlickrPhotosView = Backbone.View.extend({
-        tagName: 'ul',
+        className: 'scroll flickr-photos',
         initialize: function(options) {
             var self = this;
 
