@@ -3,7 +3,7 @@ define([
     'underscore',
     'backbone',
     'views/flickr-photos',
-    'views/sidebar-regions',
+    'views/sidebar-regions'
 ], function($, _, Backbone, FlickrPhotosView, SidebarRegionsView) {
     var IndexView = Backbone.View.extend({
         el: '#index',
@@ -22,6 +22,12 @@ define([
             this.$el.find('article').append(this.flickrPhotosView.$el);
 
             return this;
+        },
+        closeView: function() {
+            this.$el.addClass('active-view to-left');
+        },
+        openView: function() {
+            this.$el.removeClass('active-view to-left');
         }
     });
 

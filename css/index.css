@@ -12,7 +12,6 @@ section[role="region"] {
     height: 100%;
     line-height: 1em;
     font-size: 2.2rem;
-    transform: translateX(0);
 }
 
 div[role="main"] {
@@ -21,11 +20,29 @@ div[role="main"] {
     overflow: hidden;
 }
 
-div[role="main"] p {
-    margin: 2rem 2.5rem;
+/*  Custom CSS  */
+section[role="region"]:not(#drawer) {
+    transition: none 0s ease 0s;
 }
 
-/*  Custom CSS  */
+section.inactive-view {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+}
+
+section.inactive-view.to-left {
+    animation: right-to-current 0.4s forwards;
+    display: block;
+}
+
+section.inactive-view.to-right {
+    animation: current-to-right 0.4s forwards;
+}
+
 #index {
     height: 100%;
 }
