@@ -25,7 +25,7 @@ define([
             return provinces;
         },
         getDistricts: function(coddpto, codprov) {
-            var districts = _.filter(u, function(model) {
+            var districts = _.filter(this.models, function(model) {
                 return model.get('coddpto') === coddpto
                    && model.get('codprov') === codprov
                    && model.get('coddist') !== 0;
