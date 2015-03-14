@@ -19,7 +19,12 @@ define([
             });
         },
         render: function() {
-            _.each(this.collection.models, this.addMuseum, this);
+            var museums = this.collection.getByRegionAndProvince(
+                this.model.get('coddpto'),
+                this.model.get('codprov')
+            );
+
+            _.each(museums, this.addMuseum, this);
 
             return this;
         },
