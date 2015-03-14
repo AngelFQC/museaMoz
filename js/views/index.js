@@ -18,7 +18,7 @@ define([
             this.sidebarRegionsView = new SidebarRegionsView();
         },
         render: function() {
-            this.$el.find('#sidebar-regions').html(this.sidebarRegionsView.$el);
+            this.$el.find('#sidebar-regions').append(this.sidebarRegionsView.$el);
             this.$el.find('article').append(this.flickrPhotosView.$el);
 
             return this;

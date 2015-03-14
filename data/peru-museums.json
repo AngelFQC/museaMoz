@@ -1,0 +1,1874 @@
+[
+    {
+        "name": "Sala de exhibici\u00f3n \"Gilberto Tenorio Ruiz\"",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 1,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Jir\u00f3n Ayacucho 908",
+        "phones": [
+            "(041) 477045"
+        ],
+        "emails": [
+            "amazonas@mcultura.gob.pe"
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+            "Martes a domingo de 08:00 a 13:00",
+            "Martes a domingo de 15:00 a 17:45"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Nacional Chav\u00edn",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 2,
+            "province": 8,
+            "district": 3
+        },
+        "address": "Prolongaci\u00f3n Av. 17 de Enero Norte S\/N",
+        "phones": [
+            "(043) 454911"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Arqueol\u00f3gico de Ancash \"Augusto Soriano Infante\"",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica"
+        ],
+        "ubigeo": {
+            "region": 2,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Av. Luzuriaga 762",
+        "phones": [
+            "(043) 421551"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 4
+            },
+            {
+                "category": "Jubilados",
+                "value": 4
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Regional de Casma \"Max Uhle\"",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica"
+        ],
+        "ubigeo": {
+            "region": 2,
+            "province": 5,
+            "district": 1
+        },
+        "address": "Carretera Casma \u2013 Huaras Km 2",
+        "phones": [
+            "(043) 421829",
+            "943865538"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 4
+            },
+            {
+                "category": "Jubilados",
+                "value": 4
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            }
+        ],
+        "schedule": [
+            "Lunes a domingo de 08:00 a 18:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Centro de Informaci\u00f3n \"Ichic Wilkawain\"",
+        "collection": null,
+        "ubigeo": {
+            "region": 2,
+            "province": 1,
+            "district": 2
+        },
+        "address": "Centro Poblado Menor de Paria",
+        "phones": [
+            "(043) 421829"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            }
+        ],
+        "schedule": [
+            "Lunes a s\u00e1bado de 08:30 a 17:30",
+            "Domingos y feriados de 09:00 a 14:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Sala de Exhibici\u00f3n del Monumento Arqueol\u00f3gico de Willkawain",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 2,
+            "province": 1,
+            "district": 2
+        },
+        "address": "Centro Poblado Menor de Paria",
+        "phones": [
+            "(043) 421829"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Arqueol\u00f3gico Zonal de Cabana",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica"
+        ],
+        "ubigeo": {
+            "region": 2,
+            "province": 10,
+            "district": 1
+        },
+        "address": "Plaza de Armas s\/n",
+        "phones": [
+            "(043) 421829",
+            "943175381"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+            "Lunes a s\u00e1bado de 08:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Arqueolog\u00eda, Antropolog\u00eda e Historia Natural de Ranrahirca",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica",
+            "Ciencias naturales"
+        ],
+        "ubigeo": {
+            "region": 2,
+            "province": 15,
+            "district": 6
+        },
+        "address": "Jr. Las Palmeras S\/N",
+        "phones": [
+            "(043) 442051"
+        ],
+        "emails": [
+            "ancash@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 16:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Arqueol\u00f3gico, Antropol\u00f3gico de Apur\u00edmac",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 3,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Casa Hacienda Illanya S\/N Anexo Illanya",
+        "phones": [
+            "(083) 783178"
+        ],
+        "emails": [
+            "apurimac@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 3
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 08:30 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Pampa de la Quinua",
+        "collection": [
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 5,
+            "province": 1,
+            "district": 5
+        },
+        "address": "Plaza Principal de Quinua",
+        "phones": [
+            "(066) 312056"
+        ],
+        "emails": [
+            "ayacucho@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 13:00",
+            "Martes a domingo de 15:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Wari",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 5,
+            "province": 1,
+            "district": 5
+        },
+        "address": "Complejo Arqueol\u00f3gico de Wari. Km23 Carretera Ayacucho\u2013Quinua",
+        "phones": [
+            "(066) 312056"
+        ],
+        "emails": [
+            "ayacucho@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 3
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Hist\u00f3rico Regional \"Hip\u00f3lito Unanue\"",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico"
+        ],
+        "ubigeo": {
+            "region": 5,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Av. Independencia 502",
+        "phones": [
+            "(066) 312056"
+        ],
+        "emails": [
+            "ayacucho@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 13:00",
+            "Martes a domingo de 15:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Conjunto Monumental Bel\u00e9n",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 6,
+            "province": 1,
+            "district": 1
+        },
+        "address": " Jr. Bel\u00e9n S\/N",
+        "phones": [
+            "(076) 362601"
+        ],
+        "emails": [
+            "cajamarca@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 2
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 08:30 a 13:00",
+            "Martes a domingo de 14:30 a 18:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Chincheros",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 7,
+            "province": 13,
+            "district": 2
+        },
+        "address": "Plazoleta del Conjunto Arqueol\u00f3gico de Chincheros",
+        "phones": [
+            "(084) 223245"
+        ],
+        "emails": [
+            "museos@drc-cusco.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 7
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 4
+            },
+            {
+                "category": "Docentes",
+                "value": 4
+            },
+            {
+                "category": "Jubilados",
+                "value": 4
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 19:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio \"Manuel Ch\u00e1vez Ball\u00f3n\"",
+        "collection": [
+            "Arquitect\u00f3nico"
+        ],
+        "ubigeo": {
+            "region": 7,
+            "province": 13,
+            "district": 1
+        },
+        "address": "Antiguo Puente Ruinas Km. 112 v\u00eda f\u00e9rrea, Aguas Calientes",
+        "phones": [
+            "(084) 211067"
+        ],
+        "emails": [
+            "museodesitiomapi@drc-cusco.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 22
+            },
+            {
+                "category": "Ni\u00f1os y estudiantes",
+                "value": 11
+            }
+        ],
+        "schedule": [
+            "Lunes a domingo de 09:00 a 16:30"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Hist\u00f3rico Regional del Cusco",
+        "collection": [
+            "Arquitect\u00f3nico",
+            "Hist\u00f3rico-Art\u00edstica",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 7,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Calle Heladeros S\/N Casa del Inca Garcilaso de la Vega",
+        "phones": [
+            "(084) 223245"
+        ],
+        "emails": [
+            "museos@drc-cusco.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Nacional - Adultos",
+                "value": 70
+            },
+            {
+                "category": "Nacional - Estudiantes",
+                "value": 40
+            },
+            {
+                "category": "Nacional - Ni\u00f1os",
+                "value": 40
+            },
+            {
+                "category": "Extranjero - Adultos",
+                "value": 130
+            },
+            {
+                "category": "Extranjero - Estudiantes",
+                "value": 70
+            },
+            {
+                "category": "Extranjero - Ni\u00f1os",
+                "value": 70
+            }
+        ],
+        "schedule": [
+            "Lunes a domingo de 08:00 a 17:00"
+        ],
+        "comments": [
+            "Incluido en el Boleto tur\u00edstico Cusco que incluye la visita a otros museos y sitios arqueol\u00f3gicos",
+            "Gratis s\u00e1bados para visitantes y estudiantes locales"
+        ]
+    },
+    {
+        "name": "Museo Arqueol\u00f3gico \"Samuel Humberto Espinoza Lozano\"",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 8,
+            "province": 6,
+            "district": 4
+        },
+        "address": "Jr. 24 de Junio S\/N",
+        "phones": [
+            "(067) 453420"
+        ],
+        "emails": [
+            "huancavelica@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Regional \"Daniel Hern\u00e1ndez Morillo\"",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 8,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Plazoleta de San Juan de Dios S\/N",
+        "phones": [
+            "(067) 453420"
+        ],
+        "emails": [
+            "huancavelica@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Sala de Exhibici\u00f3n del Complejo Arqueol\u00f3gico de Kotosh",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 9,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Carretera Hu\u00e1nuco - La Uni\u00f3n",
+        "phones": [
+            "(062) 512507"
+        ],
+        "emails": [
+            "huanuco@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 2
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Paracas \"Julio C. Tello\"",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 10,
+            "province": 4,
+            "district": 5
+        },
+        "address": "Km. 27 Carretera Pisco - Puerto San Mart\u00edn (Reserva Natural de Paracas)",
+        "phones": [
+            "(056) 234383"
+        ],
+        "emails": [
+
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Tambo Colorado",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 10,
+            "province": 4,
+            "district": 3
+        },
+        "address": "Km. 39 v\u00eda los Libertadores \u2013 Wari",
+        "phones": [
+            "(056) 234383"
+        ],
+        "emails": [
+            "ica@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 8
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 2
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Lunes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Regional de Ica \"Adolfo Berm\u00fadez Jenkins\"",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 10,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Jr. Ayabaca cuadra 8 s\/n Urb. San Isidro",
+        "phones": [
+            "(056) 234383"
+        ],
+        "emails": [
+            "ica@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 10
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 5
+            },
+            {
+                "category": "Jubilados",
+                "value": 5
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 5
+            }
+        ],
+        "schedule": [
+            "Lunes a viernes de 08:00 a 19:00",
+            "S\u00e1bados a domingos de 08:30 a 06:30"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Regional de Arqueolog\u00eda de Jun\u00edn",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 11,
+            "province": 9,
+            "district": 1
+        },
+        "address": "Jr. Grau 195, 4to piso Edificio 5 de Enero",
+        "phones": [
+            "(064) 216201",
+            "(064) 201276"
+        ],
+        "emails": [
+            "junin@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Lunes a viernes de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Wari Willka",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 11,
+            "province": 1,
+            "district": 18
+        },
+        "address": "Plaza Arqueol\u00f3gica S\/N Anexo de Huari",
+        "phones": [
+            "(064) 216201",
+            "(064) 232535"
+        ],
+        "emails": [
+            "museowariwillka@hotmail.com"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 3
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 2
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 12:30",
+            "Martes a domingo de 15:30 a 17:15"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio de Chan Chan",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 12,
+            "province": 1,
+            "district": 2
+        },
+        "address": "Av. Chan Chan S\/N (Carretera a Huanchaco) Centro Poblado menor de Villa del Mar",
+        "phones": [
+            "(044) 234862"
+        ],
+        "emails": [
+            "lalibertad@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 10
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 5
+            },
+            {
+                "category": "Jubilados",
+                "value": 5
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 5
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Arqueol\u00f3gico Nacional \"Br\u00fcning\"",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 13,
+            "province": 3,
+            "district": 1
+        },
+        "address": "Av. Huamachuco S\/N",
+        "phones": [
+            "(074) 282110"
+        ],
+        "emails": [
+            "museonacionalbruning@yahoo.es"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 8
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Lunes a viernes de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Huaca Chotuna - Chornancap",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 13,
+            "province": 3,
+            "district": 11
+        },
+        "address": "Huaca Chotuna sector Bodegones, comunidad campesina San Jos\u00e9. Carretera Lambayeque \u2013 San Jos\u00e9",
+        "phones": [
+            "978122124"
+        ],
+        "emails": [
+
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 07:00 a 16:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Huaca Rajada \u2013 Sip\u00e1n",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 13,
+            "province": 2,
+            "district": 14
+        },
+        "address": "Complejo Arqueol\u00f3gico de Huaca Rajada - Sip\u00e1n. Campi\u00f1a Huaca Rajada D\/N. Carretera Sip\u00e1n \u2013 Pampa Grande",
+        "phones": [
+            "978977622"
+        ],
+        "emails": [
+            "museohrsipan@gmail.com"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 8
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1.5
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            },
+            {
+                "category": "Extranjeros",
+                "value": 8
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio T\u00facume",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 13,
+            "province": 3,
+            "district": 12
+        },
+        "address": "A 1 km. Al Este del pueblo de T\u00facume",
+        "phones": [
+            "(074) 612254",
+            "(074) 792758"
+        ],
+        "emails": [
+            "informes@museodesitiotucume.com"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 8
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Tumbas Reales de Sip\u00e1n",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 13,
+            "province": 3,
+            "district": 1
+        },
+        "address": "Av. Juan Pablo Vizcardo y Guzm\u00e1n N\u00b0 895",
+        "phones": [
+            "(074) 283978"
+        ],
+        "emails": [
+            "tumbasdesipan@hotmail.com",
+            "tumbasdesipan@gmail.com"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 10
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1.5
+            },
+            {
+                "category": "Jubilados",
+                "value": 4
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            },
+            {
+                "category": "Visita guiada",
+                "value": 20
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Nacional Sic\u00e1n",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 13,
+            "province": 2,
+            "district": 4
+        },
+        "address": "Av. Bat\u00e1n Grande cuadra 7 S\/N Carretera P\u00edtipo - Ferre\u00f1afe",
+        "phones": [
+            "(074) 286469"
+        ],
+        "emails": [
+            "museosican@speedy.com.pe",
+            "museosican@hotmail.com"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 8
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Casa de la Gastronom\u00eda Peruana",
+        "collection": [
+            "Casa Museo"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Jr. Conde de Superunda 170. Cercado de Lima",
+        "phones": [
+            "(01) 4267264"
+        ],
+        "emails": [
+            "aleon@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 3
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 2
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Casa Museo Jos\u00e9 Carlos Mari\u00e1tegui",
+        "collection": [
+            "Hist\u00f3rica-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Jr. Washington 1938 \u2013 1946",
+        "phones": [
+            "(01) 3306074"
+        ],
+        "emails": [
+            "casamariategui@mcultura.gob.pe"
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+            "Lunes a vierness de 08:30 a 17:15"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Arte Italiano",
+        "collection": [
+            "Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Paseo de la Rep\u00fablica S\/N. Cercado de Lima",
+        "phones": [
+            "(01) 4239932"
+        ],
+        "emails": [
+            "museodearteitaliano@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 6
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 10:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Nacional de la Cultura Peruana",
+        "collection": [
+            "Arte tradicional",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Av. Alfonso Ugarte 650",
+        "phones": [
+            "(01) 4235892"
+        ],
+        "emails": [
+            "mncp@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 2
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a s\u00e1bado de 10:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Arturo Jim\u00e9nez Borja \u2013 Puruchuco",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 3
+        },
+        "address": "Carretera Central, km. 4.5",
+        "phones": [
+            "(01) 4942641"
+        ],
+        "emails": [
+            "museopuruchuco@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 2
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Pachac\u00e1mac",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 13
+        },
+        "address": "Km. 31 de la Antigua Panamericana Sur",
+        "phones": [
+            "(01) 4300168"
+        ],
+        "emails": [
+            "museopachacamac@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 7
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 4
+            },
+            {
+                "category": "Jubilados",
+                "value": 4
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 4
+            }
+        ],
+        "schedule": [
+            "Martes a s\u00e1bado de 09:00 a 17:00",
+            "Domingo de 09:00 a 16:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Huaca Pucllana",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 15
+        },
+        "address": "General Borgo\u00f1o cuadra 8 S\/N",
+        "phones": [
+            "(01) 6177138",
+            "(01) 6177367",
+            "(01) 6177148"
+        ],
+        "emails": [
+            "huacapucllana@miraflores.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Mi\u00e9rcoles a lunes de 09:00 a 17:00",
+            "Domingo de 09:00 a 16:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Nacional de Arqueolog\u00eda, Antropolog\u00eda e Historia del Per\u00fa",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 17
+        },
+        "address": "Plaza Bol\u00edvar S\/N",
+        "phones": [
+            "(01) 4635070"
+        ],
+        "emails": [
+            "mnaahp@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 10
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 5
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 5
+            }
+        ],
+        "schedule": [
+            "Martes a s\u00e1bado de 09:00 a 17:00",
+            "Domingo de 09:00 a 16:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Departamental de San Mart\u00edn",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica",
+            "Etnogr\u00e1fica",
+            "Paleontol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 21,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Jr. Benavides N\u00ba 380 Barrio Calvario",
+        "phones": [
+            "(042) 562281"
+        ],
+        "emails": [
+            "sanmartin@mcultura.gob.pe"
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+            "Martes a domingo de 08:30 a 13:00",
+            "Martes a domingo de 15:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Pea\u00f1as",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 22,
+            "province": 1,
+            "district": 9
+        },
+        "address": "Pago Pea\u00f1as",
+        "phones": [
+            "(052) 428505"
+        ],
+        "emails": [
+            "tacna@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Hist\u00f3rico Regional de Tacna",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 22,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Calle Apur\u00edmac 202",
+        "phones": [
+            "(052) 428505"
+        ],
+        "emails": [
+            "tacna@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Cabeza de Vaca \"Gran Chilimasa\"",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 23,
+            "province": 1,
+            "district": 2
+        },
+        "address": "Pasaje el Museo 117 Cabeza de Vaca Norte",
+        "phones": [
+            "(072) 521936"
+        ],
+        "emails": [
+            "tumbes@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 4
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    }
+]
