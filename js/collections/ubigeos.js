@@ -5,7 +5,7 @@ define([
 ], function(_, Backbone, UbigeoModel) {
     var UbigeosCollection = Backbone.Collection.extend({
         model: UbigeoModel,
-        url: "ubigeo/ubigeo-peru.json",
+        url: "data/ubigeo-peru.json",
         getRegions: function() {
             var regions = _.filter(this.models, function(model) {
                 return model.get('coddpto') !== 0
