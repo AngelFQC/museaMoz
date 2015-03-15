@@ -197,137 +197,137 @@
 			list-style-position: outside;
 			margin-left: 2rem;
 		}
-    
-    /*ImagesClass*/
-    .imageclass {
-      margin-right: 5px;
-      width: 125px;
-      height: 125px;
-    }
+
+		/*ImagesClass*/
+		.imageclass {
+			margin-right: 5px;
+			width: 125px;
+			height: 125px;
+		}
 	</style>
 </head>
 <body>
 	<div id="container">
-	<section id="index" data-position="current">
-		<section data-type="sidebar">
-			<header>
-				<h1>Regiones</h1>
-			</header>
-			<nav>
-				<ul id="lista-dptos"></ul>
-				<h2>&nbsp;</h2>
-				<ul>
-					<li><a href="#" id="btn-to-about">Acerca de</a></li>
-				</ul>
-			</nav>
+		<section id="index" data-position="current">
+			<section data-type="sidebar">
+				<header>
+					<h1>Regiones</h1>
+				</header>
+				<nav>
+					<ul id="lista-dptos"></ul>
+					<h2>&nbsp;</h2>
+					<ul>
+						<li><a href="#" id="btn-to-about">Acerca de</a></li>
+					</ul>
+				</nav>
+			</section>
+
+			<section id="drawer" role="region">
+				<header class="fixed">
+					<a href="#"><span class="icon icon-menu">hide sidebar</span></a>
+					<a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+					<h1>museaMoz</h1>
+				</header>
+				<article class="content scrollable header">
+					<header>
+						<h2>Guía de museos del Perú</h2>
+					</header>
+					<p class="small">Para comenzar haz clic en el botón de la esquina superior izquierda.</p>
+		    <p class="small">Los museos se muestran por región, provincia y distrito donde se ubican.</p>
+		    <div id="images">
+				</article>
+			</section>
 		</section>
 
-		<section id="drawer" role="region">
+		<!--···························· Región ····························-->
+		<section role="region" id="dpto" data-position="right">
 			<header class="fixed">
-				<a href="#"><span class="icon icon-menu">hide sidebar</span></a>
-				<a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+				<a id="btn-dpto-back" href="#"><span class="icon icon-back">back</span></a>
 				<h1>museaMoz</h1>
 			</header>
+
 			<article class="content scrollable header">
-				<header>
-					<h2>Guía de museos del Perú</h2>
-				</header>
-				<p class="small">Para comenzar haz clic en el botón de la esquina superior izquierda.</p>
-        <p class="small">Los museos se muestran por región, provincia y distrito donde se ubican.</p>
-        <div id="images">
+				<header><h2 id="dpto-nombre">Región <em></em></h2></header>
+				<div data-type="list" id="lista-provs">
+				</div>
 			</article>
 		</section>
-	</section>
 
-	<!--···························· Región ····························-->
-	<section role="region" id="dpto" data-position="right">
-		<header class="fixed">
-			<a id="btn-dpto-back" href="#"><span class="icon icon-back">back</span></a>
-			<h1>museaMoz</h1>
-		</header>
+		<!--···························· Museo ····························-->
+		<section role="region" id="museo" data-position="right">
+			<header class="fixed">
+				<a id="btn-museo-back" href="#"><span class="icon icon-back">back</span></a>
+				<h1>museaMoz</h1>
+			</header>
 
-		<article class="content scrollable header">
-			<header><h2 id="dpto-nombre">Región <em></em></h2></header>
-			<div data-type="list" id="lista-provs">
-			</div>
-		</article>
-	</section>
-
-	<!--···························· Museo ····························-->
-	<section role="region" id="museo" data-position="right">
-		<header class="fixed">
-			<a id="btn-museo-back" href="#"><span class="icon icon-back">back</span></a>
-			<h1>museaMoz</h1>
-		</header>
-
-		<article class="content scrollable header">
-			<header><h2 id="mus-nombre"></h2></header>
-			<div data-type="list">
-				<header>Colección</header>
-				<ul>
-					<li><p id="mus-coleccion"></p></li>
-				</ul>
-			</div>
-			<div id="mus-descripcion"></div>
-      <div id="mus-imagenes"></div>
-			<div data-type="list">
-				<header>Ubicación</header>
-				<ul class="texto-completo">
-					<li>
-						<p id="mus-direccion"></p>
-						<p id="mus-distritopd"></p>
-					</li>
-				</ul>
-				<header>Costos</header>
-				<ul id="mus-costos-detail"></ul>
-				<div id="mus-atencion">
-					<header>Atención</header>
-					<ul id="mus-atencion-detail" class="texto-completo"></ul>
+			<article class="content scrollable header">
+				<header><h2 id="mus-nombre"></h2></header>
+				<div data-type="list">
+					<header>Colección</header>
+					<ul>
+						<li><p id="mus-coleccion"></p></li>
+					</ul>
 				</div>
-				<div id="mus-contacto">
-					<header>Contacto</header>
-					<ul id="mus-contacto-detail"></ul>
+				<div id="mus-descripcion"></div>
+				<div id="mus-imagenes"></div>
+				<div data-type="list">
+					<header>Ubicación</header>
+					<ul class="texto-completo">
+						<li>
+							<p id="mus-direccion"></p>
+							<p id="mus-distritopd"></p>
+						</li>
+					</ul>
+					<header>Costos</header>
+					<ul id="mus-costos-detail"></ul>
+					<div id="mus-atencion">
+						<header>Atención</header>
+						<ul id="mus-atencion-detail" class="texto-completo"></ul>
+					</div>
+					<div id="mus-contacto">
+						<header>Contacto</header>
+						<ul id="mus-contacto-detail"></ul>
+					</div>
 				</div>
-			</div>
-		</article>
-	</section>
+			</article>
+		</section>
 
-	<!--···························· About ····························-->
-	<section role="region" id="about" data-position="right">
-		<header class="fixed">
-			<a id="btn-about-back" href="#"><span class="icon icon-back">back</span></a>
-			<h1>museaMoz</h1>
-		</header>
+		<!--···························· About ····························-->
+		<section role="region" id="about" data-position="right">
+			<header class="fixed">
+				<a id="btn-about-back" href="#"><span class="icon icon-back">back</span></a>
+				<h1>museaMoz</h1>
+			</header>
 
-		<article class="content scrollable header">
-			<header><h2>Acerca de</h2></header>
-			<p class="small">La información acerca de los museos ha sido obtenida de la Guía de Museos del Perú (segunda edición, 2012) del <a target="_blank" href="http://www.mcultura.gob.pe">Ministerio de Cultura</a>.</p>
-			<p class="small">Los horarios de atención son referenciales y sujetos a cambios.</p>
-			<div data-type="list">
-				<header></aside>Créditos</header>
-				<ul>
-					<li>
-						<p><a target="_blank" href="https://github.com/AngelFQC">AngelFQC</a></p>
-					</li>
-					<li>
-						<p><a target="_blank" href="https://github.com/juaneladio">juaneladio</a></p>
-					</li>
-					<li>
-						<p><a target="_blank" href="https://github.com/Diavolo">Diavolo</a></p>
-					</li>
-				</ul>
-				<header>Aplicación</header>
-				<ul>
-					<li>
-						<p><a target="_blank" href="https://github.com/angelfqc/museaMoz">Proyecto en GitHub</a>.</p>
-					</li>
-				</ul>
-			</div>
-		</article>
-	</section>
+			<article class="content scrollable header">
+				<header><h2>Acerca de</h2></header>
+				<p class="small">La información acerca de los museos ha sido obtenida de la Guía de Museos del Perú (segunda edición, 2012) del <a target="_blank" href="http://www.mcultura.gob.pe">Ministerio de Cultura</a>.</p>
+				<p class="small">Los horarios de atención son referenciales y sujetos a cambios.</p>
+				<div data-type="list">
+					<header></aside>Créditos</header>
+					<ul>
+						<li>
+							<p><a target="_blank" href="https://github.com/AngelFQC">AngelFQC</a></p>
+						</li>
+						<li>
+							<p><a target="_blank" href="https://github.com/juaneladio">juaneladio</a></p>
+						</li>
+						<li>
+							<p><a target="_blank" href="https://github.com/Diavolo">Diavolo</a></p>
+						</li>
+					</ul>
+					<header>Aplicación</header>
+					<ul>
+						<li>
+							<p><a target="_blank" href="https://github.com/angelfqc/museaMoz">Proyecto en GitHub</a>.</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+		</section>
 	</div>
   
-  <script type="text/javascript" defer src="js/jquery.js"></script>
+	<script type="text/javascript" defer src="js/jquery.js"></script>
 
 	<script type="text/javascript" defer src="js/dataClasses.js"></script>
 	<script type="text/javascript" defer src="js/dataAmazonas.js"></script>
