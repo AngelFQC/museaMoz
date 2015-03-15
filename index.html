@@ -27,6 +27,15 @@
 	<link rel="stylesheet" href="cross_browser.css">
 
 	<style>
+		#container {
+			bottom: 0;
+			height: 100%;
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
 		#index {
 			height: 100%;
 		}
@@ -198,6 +207,7 @@
 	</style>
 </head>
 <body>
+	<div id="container">
 	<section id="index" data-position="current">
 		<section data-type="sidebar">
 			<header>
@@ -315,6 +325,7 @@
 			</div>
 		</article>
 	</section>
+	</div>
   
   <script type="text/javascript" defer src="js/jquery.js"></script>
 
