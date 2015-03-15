@@ -1,7 +1,7 @@
 {
 	"name": "museaMoz",
 	"description": "Guía de Museos del Perú. Incluye museos de Amazonas (Chachapoyas), Ancash (Huaraz), Apurimac (Abancay), Arequipa, Ayacucho, Cajamarca, Callao, Cusco, Huancavelica, Huanuco, Ica, Junin (Huanuco), La Libertad (Trujillo), Lambayeque (Chiclayo), Lima, Loreto (Iquitos), Madre de Dios (Puerto Maldonado), Moquegua, Pasco, Piura, Puno, San Martín (Moyobamba), Tacna, Tumbes, Ucayali (Pucallpa).",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"launch_path": "/museaMoz/index.html",
 	"icons": {
 		"128": "/museaMoz/images/app_icon_128.png",
