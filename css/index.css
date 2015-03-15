@@ -21,6 +21,17 @@ div[role="main"] {
 }
 
 /*  Custom CSS  */
+#container {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
 section[role="region"]:not(#drawer) {
     transition: none 0s ease 0s;
 }
