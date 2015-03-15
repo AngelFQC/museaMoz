@@ -1702,6 +1702,389 @@
         ]
     },
     {
+        "name": "Museo de Sitio \"El Mirador del Cerro San Crist\u00f3bal\"",
+        "collection": [
+            "Fotogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 22
+        },
+        "address": "Mirador del Cerro San Crist\u00f3bal",
+        "phones": [
+            "(01) 7618184"
+        ],
+        "emails": [
+
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 1.5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1.5
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1.5
+            }
+        ],
+        "schedule": [
+            "Martes a s\u00e1bado de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de la Naci\u00f3n",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rico-Art\u00edstica",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 40
+        },
+        "address": "Av. Javier Prado Este 2465",
+        "phones": [
+            "(01) 4769878",
+            "(01) 4769933"
+        ],
+        "emails": [
+            "museodelanacion@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 3
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 1.5
+            },
+            {
+                "category": "Docentes",
+                "value": 1.5
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1.5
+            }
+        ],
+        "schedule": [
+            "Martes a s\u00e1bado de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Huallamarca",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 14,
+            "province": 1,
+            "district": 24
+        },
+        "address": "Av. Nicol\u00e1s Rivera 201",
+        "phones": [
+            "(01) 2224124",
+            "(01) 4216371"
+        ],
+        "emails": [
+            "museohuallamarca@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 5
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a s\u00e1bado de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo Amaz\u00f3nico",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Hist\u00f3rica",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 15,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Malec\u00f3n Tarapac\u00e1 No 382",
+        "phones": [
+            "(065) 234031"
+        ],
+        "emails": [
+            "loreto@mcultura.gob.pe"
+        ],
+        "tariff": [
+
+        ],
+        "schedule": [
+            "Lunes a viernes de 09:00 a 12:30",
+            "Lunes a viernes de 14:30 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo de Sitio Narihual\u00e1",
+        "collection": [
+            "Arqueol\u00f3gica",
+            "Etnogr\u00e1fica"
+        ],
+        "ubigeo": {
+            "region": 19,
+            "province": 1,
+            "district": 4
+        },
+        "address": "Caser\u00edo de Narihual\u00e1",
+        "phones": [
+            "(073) 305178"
+        ],
+        "emails": [
+            "piura@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 2
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 0.5
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 1
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 08:30 a 16:30"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Sala de exhibici\u00f3n de Oro - Museo Municipal Vic\u00fas",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 19,
+            "province": 1,
+            "district": 1
+        },
+        "address": "Esquina Av. Sullana con Jr. Hu\u00e1nuco",
+        "phones": [
+            "(073) 327541"
+        ],
+        "emails": [
+            "piura@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 4
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 2
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 08:30 a 16:30"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Templo Museo \"San Juan de Letr\u00e1n\"",
+        "collection": [
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 20,
+            "province": 1,
+            "district": 6
+        },
+        "address": "Jr. Juli 325. Juli",
+        "phones": [
+            "(051) 368278"
+        ],
+        "emails": [
+            "puno@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 6
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior y docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Templo Museo de la Asunci\u00f3n",
+        "collection": [
+            "Hist\u00f3rico-Art\u00edstica"
+        ],
+        "ubigeo": {
+            "region": 20,
+            "province": 1,
+            "district": 6
+        },
+        "address": "Cercado de la ciudad de Juli",
+        "phones": [
+            "(051) 368278"
+        ],
+        "emails": [
+            "puno@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 8
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
+        "name": "Museo L\u00edtico de Pucar\u00e1",
+        "collection": [
+            "Arqueol\u00f3gica"
+        ],
+        "ubigeo": {
+            "region": 20,
+            "province": 6,
+            "district": 8
+        },
+        "address": "Plaza de Armas de Pucar\u00e1",
+        "phones": [
+            "(051) 363662"
+        ],
+        "emails": [
+            "puno@mcultura.gob.pe"
+        ],
+        "tariff": [
+            {
+                "category": "Adultos",
+                "value": 6
+            },
+            {
+                "category": "Escolares y ni\u00f1os",
+                "value": 1
+            },
+            {
+                "category": "Docentes",
+                "value": 3
+            },
+            {
+                "category": "Jubilados",
+                "value": 3
+            },
+            {
+                "category": "Estudiantes de educaci\u00f3n superior",
+                "value": 3
+            }
+        ],
+        "schedule": [
+            "Martes a domingo de 09:00 a 17:00"
+        ],
+        "comments": [
+
+        ]
+    },
+    {
         "name": "Museo Departamental de San Mart\u00edn",
         "collection": [
             "Arqueol\u00f3gica",
