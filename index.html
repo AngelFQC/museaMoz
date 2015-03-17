@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="building-blocks/layout.css">
         <link rel="stylesheet" href="building-blocks/headers.css">
         <link rel="stylesheet" href="building-blocks/drawer.css">
+        <link rel="stylesheet" href="building-blocks/tabs.css">
         <link rel="stylesheet" href="building-blocks/progress_activity.css">
 
         <link rel="stylesheet" href="css/index.css">
@@ -61,6 +62,37 @@
                         <h2>Museos</h2>
                     </header>
                     <article data-type="list" class="scroll">
+                    </article>
+                </div>
+            </section>
+
+            <section id="museum" role="region" class="inactive-view">
+                <header>
+                    <a href="#"><span class="icon icon-back">Back</span></a>
+                    <h1><small>museaMoz</small></h1>
+                </header>
+                <div role="main" class="vbox">
+                    <article>
+                        <ul role="tablist" class="bb-tablist skin-dark">
+                            <li id="panel1" role="presentation">
+                                <a id="tab1" href="#tab1" role="tab" aria-controls="tabpanel1">Info</a>
+                                <div id="tabpanel1" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab1">
+                                    <header>Info</header>
+                                </div>
+                            </li>
+                            <li id="panel2" role="presentation">
+                                <a id="tab2" href="#tab2" role="tab" aria-controls="tabpanel2">Costo</a>
+                                <div id="tabpanel2" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab2">
+                                    <header>Costo</header>
+                                </div>
+                            </li>
+                            <li id="panel3" role="presentation">
+                                <a id="tab3" href="#tab3" role="tab" aria-controls="tabpanel3">Ubicación</a>
+                                <div id="tabpanel3" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab3">
+                                    <header>Ubicación</header>
+                                </div>
+                            </li>
+                        </ul>
                     </article>
                 </div>
             </section>

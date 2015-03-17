@@ -65,6 +65,15 @@ section.inactive-view.to-right {
     width: calc(100% / 3);
 }
 
+.bb-tablist li > a:target {
+    color: #0AC;
+}
+
+.bb-tablist li > a:target + div{
+    top: 5rem;
+    visibility: visible;
+}
+
 @media (orientation: landscape) {
     .flickr-photos img {
         width: calc(100% / 5);

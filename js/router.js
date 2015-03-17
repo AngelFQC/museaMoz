@@ -5,8 +5,10 @@ define([
     'views/index',
     'views/region',
     'collections/ubigeos',
-    'views/province'
-], function($, _, Backbone, IndexView, RegionView, UbigeosCollection, ProvinceView) {
+    'views/province',
+    'collections/museums',
+    'views/museum'
+], function($, _, Backbone, IndexView, RegionView, UbigeosCollection, ProvinceView, MuseumsCollection, MuseumView) {
     var STATUS_INDEX = 'index',
         status = null;
 
@@ -14,13 +16,15 @@ define([
         routes: {
             '': 'showIndex',
             'region/:id': 'showRegion',
-            'region/:coddpto/province/:codprov': 'showProvince'
+            'region/:coddpto/province/:codprov': 'showProvince',
+            'museum/:id': 'showMuseum'
         }
     });
 
     var indexView = null,
         regionView = null,
-        provinceView = null;
+        provinceView = null,
+        museumView = null;
 
     var initialize = function() {
         var appRouter = new AppRouter;
@@ -68,6 +72,23 @@ define([
                 });
                 provinceView.render();
                 provinceView.openView();
+            });
+        });
+        appRouter.on('route:showMuseum', function(id) {
+            var museumsCollection = new MuseumsCollection();
+
+            var museumsFetch = museumsCollection.fetch();
+
+            $.when(museumsFetch).done(function() {
+                var museumModel = museumsCollection.findWhere({
+                    _id: parseInt(id)
+                });
+
+                museumView = new MuseumView({
+                    model: museumModel
+                });
+                museumView.render();
+                museumView.openView();
             });
         });
 
