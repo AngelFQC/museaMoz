@@ -1,5 +1,6 @@
 [
     {
+        "_id": 1,
         "name": "Sala de exhibici\u00f3n \"Gilberto Tenorio Ruiz\"",
         "collection": [
             "Arqueol\u00f3gica"
@@ -28,6 +29,7 @@
         ]
     },
     {
+        "_id": 2,
         "name": "Museo Nacional Chav\u00edn",
         "collection": [
             "Arqueol\u00f3gica"
@@ -55,6 +57,7 @@
         ]
     },
     {
+        "_id": 3,
         "name": "Museo Arqueol\u00f3gico de Ancash \"Augusto Soriano Infante\"",
         "collection": [
             "Arqueol\u00f3gica",
@@ -102,6 +105,7 @@
         ]
     },
     {
+        "_id": 4,
         "name": "Museo Regional de Casma \"Max Uhle\"",
         "collection": [
             "Arqueol\u00f3gica",
@@ -150,6 +154,7 @@
         ]
     },
     {
+        "_id": 5,
         "name": "Centro de Informaci\u00f3n \"Ichic Wilkawain\"",
         "collection": null,
         "ubigeo": {
@@ -195,6 +200,7 @@
         ]
     },
     {
+        "_id": 6,
         "name": "Sala de Exhibici\u00f3n del Monumento Arqueol\u00f3gico de Willkawain",
         "collection": [
             "Arqueol\u00f3gica"
@@ -241,6 +247,7 @@
         ]
     },
     {
+        "_id": 7,
         "name": "Museo Arqueol\u00f3gico Zonal de Cabana",
         "collection": [
             "Arqueol\u00f3gica",
@@ -270,6 +277,7 @@
         ]
     },
     {
+        "_id": 8,
         "name": "Museo de Arqueolog\u00eda, Antropolog\u00eda e Historia Natural de Ranrahirca",
         "collection": [
             "Arqueol\u00f3gica",
@@ -318,6 +326,7 @@
         ]
     },
     {
+        "_id": 9,
         "name": "Museo Arqueol\u00f3gico, Antropol\u00f3gico de Apur\u00edmac",
         "collection": [
             "Arqueol\u00f3gica",
@@ -365,6 +374,7 @@
         ]
     },
     {
+        "_id": 10,
         "name": "Museo de Sitio Pampa de la Quinua",
         "collection": [
             "Hist\u00f3rico-Art\u00edstica"
@@ -412,6 +422,7 @@
         ]
     },
     {
+        "_id": 11,
         "name": "Museo de Sitio Wari",
         "collection": [
             "Arqueol\u00f3gica"
@@ -458,6 +469,7 @@
         ]
     },
     {
+        "_id": 12,
         "name": "Museo Hist\u00f3rico Regional \"Hip\u00f3lito Unanue\"",
         "collection": [
             "Arqueol\u00f3gica",
@@ -506,6 +518,7 @@
         ]
     },
     {
+        "_id": 13,
         "name": "Museo Conjunto Monumental Bel\u00e9n",
         "collection": [
             "Arqueol\u00f3gica",
@@ -555,6 +568,7 @@
         ]
     },
     {
+        "_id": 14,
         "name": "Museo de Sitio Chincheros",
         "collection": [
             "Arqueol\u00f3gica"
@@ -601,6 +615,7 @@
         ]
     },
     {
+        "_id": 15,
         "name": "Museo de Sitio \"Manuel Ch\u00e1vez Ball\u00f3n\"",
         "collection": [
             "Arquitect\u00f3nico"
@@ -635,6 +650,7 @@
         ]
     },
     {
+        "_id": 16,
         "name": "Museo de Hist\u00f3rico Regional del Cusco",
         "collection": [
             "Arquitect\u00f3nico",
@@ -688,6 +704,7 @@
         ]
     },
     {
+        "_id": 17,
         "name": "Museo Arqueol\u00f3gico \"Samuel Humberto Espinoza Lozano\"",
         "collection": [
             "Arqueol\u00f3gica"
@@ -734,6 +751,7 @@
         ]
     },
     {
+        "_id": 18,
         "name": "Museo Regional \"Daniel Hern\u00e1ndez Morillo\"",
         "collection": [
             "Arqueol\u00f3gica",
@@ -781,6 +799,7 @@
         ]
     },
     {
+        "_id": 19,
         "name": "Sala de Exhibici\u00f3n del Complejo Arqueol\u00f3gico de Kotosh",
         "collection": [
             "Arqueol\u00f3gica"
@@ -827,6 +846,7 @@
         ]
     },
     {
+        "_id": 20,
         "name": "Museo de Sitio Paracas \"Julio C. Tello\"",
         "collection": [
             "Arqueol\u00f3gica"
@@ -854,6 +874,7 @@
         ]
     },
     {
+        "_id": 21,
         "name": "Museo de Sitio Tambo Colorado",
         "collection": [
             "Arqueol\u00f3gica"
@@ -900,6 +921,7 @@
         ]
     },
     {
+        "_id": 22,
         "name": "Museo Regional de Ica \"Adolfo Berm\u00fadez Jenkins\"",
         "collection": [
             "Arqueol\u00f3gica",
@@ -948,6 +970,7 @@
         ]
     },
     {
+        "_id": 23,
         "name": "Museo Regional de Arqueolog\u00eda de Jun\u00edn",
         "collection": [
             "Arqueol\u00f3gica",
@@ -996,6 +1019,7 @@
         ]
     },
     {
+        "_id": 24,
         "name": "Museo de Sitio Wari Willka",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1044,6 +1068,7 @@
         ]
     },
     {
+        "_id": 25,
         "name": "Museo de Sitio de Chan Chan",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1090,6 +1115,7 @@
         ]
     },
     {
+        "_id": 26,
         "name": "Museo Arqueol\u00f3gico Nacional \"Br\u00fcning\"",
         "collection": [
             "Arqueol\u00f3gica",
@@ -1133,6 +1159,7 @@
         ]
     },
     {
+        "_id": 27,
         "name": "Museo de Sitio Huaca Chotuna - Chornancap",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1175,6 +1202,7 @@
         ]
     },
     {
+        "_id": 28,
         "name": "Museo de Sitio Huaca Rajada \u2013 Sip\u00e1n",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1221,6 +1249,7 @@
         ]
     },
     {
+        "_id": 29,
         "name": "Museo de Sitio T\u00facume",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1268,6 +1297,7 @@
         ]
     },
     {
+        "_id": 30,
         "name": "Museo de Sitio Tumbas Reales de Sip\u00e1n",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1315,6 +1345,7 @@
         ]
     },
     {
+        "_id": 31,
         "name": "Museo Nacional Sic\u00e1n",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1358,6 +1389,7 @@
         ]
     },
     {
+        "_id": 32,
         "name": "Casa de la Gastronom\u00eda Peruana",
         "collection": [
             "Casa Museo"
@@ -1404,6 +1436,7 @@
         ]
     },
     {
+        "_id": 33,
         "name": "Casa Museo Jos\u00e9 Carlos Mari\u00e1tegui",
         "collection": [
             "Hist\u00f3rica-Art\u00edstica"
@@ -1431,6 +1464,7 @@
         ]
     },
     {
+        "_id": 34,
         "name": "Museo de Arte Italiano",
         "collection": [
             "Art\u00edstica"
@@ -1473,6 +1507,7 @@
         ]
     },
     {
+        "_id": 35,
         "name": "Museo Nacional de la Cultura Peruana",
         "collection": [
             "Arte tradicional",
@@ -1520,6 +1555,7 @@
         ]
     },
     {
+        "_id": 36,
         "name": "Museo de Sitio Arturo Jim\u00e9nez Borja \u2013 Puruchuco",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1562,6 +1598,7 @@
         ]
     },
     {
+        "_id": 37,
         "name": "Museo de Sitio Pachac\u00e1mac",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1609,6 +1646,7 @@
         ]
     },
     {
+        "_id": 38,
         "name": "Museo de Sitio Huaca Pucllana",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1658,6 +1696,7 @@
         ]
     },
     {
+        "_id": 39,
         "name": "Museo Nacional de Arqueolog\u00eda, Antropolog\u00eda e Historia del Per\u00fa",
         "collection": [
             "Arqueol\u00f3gica",
@@ -1702,6 +1741,7 @@
         ]
     },
     {
+        "_id": 40,
         "name": "Museo de Sitio \"El Mirador del Cerro San Crist\u00f3bal\"",
         "collection": [
             "Fotogr\u00e1fica"
@@ -1748,6 +1788,7 @@
         ]
     },
     {
+        "_id": 41,
         "name": "Museo de la Naci\u00f3n",
         "collection": [
             "Arqueol\u00f3gica",
@@ -1797,6 +1838,7 @@
         ]
     },
     {
+        "_id": 42,
         "name": "Museo de Sitio Huallamarca",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1844,6 +1886,7 @@
         ]
     },
     {
+        "_id": 43,
         "name": "Museo Amaz\u00f3nico",
         "collection": [
             "Arqueol\u00f3gica",
@@ -1874,6 +1917,7 @@
         ]
     },
     {
+        "_id": 44,
         "name": "Museo de Sitio Narihual\u00e1",
         "collection": [
             "Arqueol\u00f3gica",
@@ -1913,6 +1957,7 @@
         ]
     },
     {
+        "_id": 45,
         "name": "Sala de exhibici\u00f3n de Oro - Museo Municipal Vic\u00fas",
         "collection": [
             "Arqueol\u00f3gica"
@@ -1951,6 +1996,7 @@
         ]
     },
     {
+        "_id": 46,
         "name": "Templo Museo \"San Juan de Letr\u00e1n\"",
         "collection": [
             "Hist\u00f3rico-Art\u00edstica"
@@ -1993,6 +2039,7 @@
         ]
     },
     {
+        "_id": 47,
         "name": "Templo Museo de la Asunci\u00f3n",
         "collection": [
             "Hist\u00f3rico-Art\u00edstica"
@@ -2039,6 +2086,7 @@
         ]
     },
     {
+        "_id": 48,
         "name": "Museo L\u00edtico de Pucar\u00e1",
         "collection": [
             "Arqueol\u00f3gica"
@@ -2085,6 +2133,7 @@
         ]
     },
     {
+        "_id": 49,
         "name": "Museo Departamental de San Mart\u00edn",
         "collection": [
             "Arqueol\u00f3gica",
@@ -2116,6 +2165,7 @@
         ]
     },
     {
+        "_id": 50,
         "name": "Museo de Sitio Pea\u00f1as",
         "collection": [
             "Arqueol\u00f3gica"
@@ -2162,6 +2212,7 @@
         ]
     },
     {
+        "_id": 51,
         "name": "Museo Hist\u00f3rico Regional de Tacna",
         "collection": [
             "Arqueol\u00f3gica",
@@ -2209,6 +2260,7 @@
         ]
     },
     {
+        "_id": 52,
         "name": "Museo de Sitio Cabeza de Vaca \"Gran Chilimasa\"",
         "collection": [
             "Arqueol\u00f3gica"
@@ -2255,3 +2307,4 @@
         ]
     }
 ]
+

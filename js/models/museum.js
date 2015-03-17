@@ -3,6 +3,7 @@ define([
     'backbone'
 ], function(_, Backbone) {
     var MuseumModel = Backbone.Model.extend({
+        idAttribute: '_id',
         defaults: {
             name: null,
             collections: new Array(),
