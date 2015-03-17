@@ -6,7 +6,7 @@ define([
         idAttribute: '_id',
         defaults: {
             name: null,
-            collections: new Array(),
+            collection: new Array(),
             ubigeo: {
                 region: 0,
                 province: 0,
