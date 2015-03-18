@@ -1,0 +1,36 @@
+<a id="cost" href="#cost" role="tab" aria-controls="cost-panel">Cost</a>
+<div id="cost-panel" class="bb-tabpanel" role="tabpanel" aria-labelledby="cost">
+    <section class="gaia-list">
+        <article>
+            <ul>
+                <% if (tariff.length > 0) { %>
+                    <% _.each(tariff, function(item) { %>
+                        <li>
+                            <p><small>S/.</small> <%= (parseFloat(item.value)).toFixed(2) %></p>
+                            <p><%= item.category %></p>
+                        </li>
+                    <% }); %>
+                <% } else { %>
+                    <li>
+                        <p>Ingreso gratuito</p>
+                    </li>
+                <% } %>
+            </ul>
+        </article>
+    </section>
+
+    <% if (comments.length > 0) { %>
+        <section class="gaia-list">
+            <article>
+                <ul>
+                    <% _.each(comments, function(comment) { %>
+                        <li>
+                            <p><%= comment %></p>
+                        </li>
+                    <% }); %>
+                </ul>
+            </article>
+        </section>
+    <% } %>
+</div>
+

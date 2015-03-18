@@ -1,0 +1,20 @@
+<a id="info" href="#info" role="tab" aria-controls="info-panel">Info</a>
+<div id="info-panel" class="bb-tabpanel" role="tabpanel" aria-labelledby="info">
+    <section class="gaia-list fit scroll">
+        <article>
+            <ul>
+                <li>
+                    <p>
+                        <strong><%= name %></strong>
+                    </p>
+                </li>
+                <li class="vbox">
+                    <p>Colección</p>
+                    <% _.each(collection, function(item) { %>
+                        <p><%= item %></p>
+                    <% }); %>
+                </li>
+            </ul>
+        </article>
+    </section>
+</div>

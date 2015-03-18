@@ -2,14 +2,29 @@ define([
     'jquery',
     'underscore',
     'backbone',
-], function($, _, Backbone) {
+    'views/museum-info',
+    'views/museum-cost'
+], function($, _, Backbone, MuseumInfoView, MuseumCostView) {
     var RegionView = Backbone.View.extend({
         el: '#museum',
+        infoView: null,
+        costView: null,
+        locationView: null,
         initialize: function() {
+            this.infoView = new MuseumInfoView({
+                model: this.model
+            });
+            this.costView = new MuseumCostView({
+                model: this.model
+            });
         },
         render: function() {
             if (this.model) {
                 this.$el.find('header h1 small').text(this.model.get('name'));
+
+                this.$el.find('ul:first').html('');
+                this.$el.find('ul:first').append(this.infoView.$el);
+                this.$el.find('ul:first').append(this.costView.$el);
             }
 
             return this;
@@ -30,3 +45,4 @@ define([
 
     return RegionView;
 });
+
