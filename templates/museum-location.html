@@ -1,0 +1,41 @@
+<a id="location" href="#location" role="tab" aria-controls="location-panel">Location</a>
+<div id="location-panel" class="bb-tabpanel" role="tabpanel" aria-labelledby="location">
+    <% if (address) { %>
+        <section class="gaia-list">
+            <article>
+                <header>Dirección</header>
+                <ul>
+                    <li>
+                        <p><%= address %></p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    <% } %>
+
+    <section data-type="list">
+        <% if (phones.length > 0) { %>
+            <header>Teléfono</header>
+            <ul>
+                <% _.each(phones, function(phone) { %>
+                    <li>
+                        <p><%= phone %></p>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } %>
+
+        <% if (emails.length > 0) { %>
+            <header>Correo electrónico</header>
+            <ul>
+                <% _.each(emails, function(email) { %>
+                    <li>
+                        <a href="mailto:<%= email %>">
+                           <p><%= email %></p>
+                        </a>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } %>
+    </section>
+</div>

@@ -2,17 +2,21 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'text!templates/region-province.html'
-], function($, _, Backbone, RegionProvinceTemplate) {
-    var RegionProvince = Backbone.View.extend({
+    'text!templates/museum-location.html'
+], function($, _, Backbone, MuseumLocationTemplate) {
+    var MuseumLocationView = Backbone.View.extend({
         tagName: 'li',
-        template: _.template(RegionProvinceTemplate),
+        template: _.template(MuseumLocationTemplate),
+        initialize: function() {
+            this.render();
+        },
         render: function() {
             var compiledTemplate = this.template(this.model.toJSON());
 
-            this.$el.html(compiledTemplate);
+            this.el.setAttribute('role', 'presentation');
+            this.el.innerHTML = compiledTemplate;
         }
     });
 
-    return RegionProvince;
+    return MuseumLocationView;
 });

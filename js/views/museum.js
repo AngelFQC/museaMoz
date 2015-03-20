@@ -3,8 +3,9 @@ define([
     'underscore',
     'backbone',
     'views/museum-info',
-    'views/museum-cost'
-], function($, _, Backbone, MuseumInfoView, MuseumCostView) {
+    'views/museum-cost',
+    'views/museum-location'
+], function($, _, Backbone, MuseumInfoView, MuseumCostView, MuseumLocationView) {
     var RegionView = Backbone.View.extend({
         el: '#museum',
         infoView: null,
@@ -17,6 +18,9 @@ define([
             this.costView = new MuseumCostView({
                 model: this.model
             });
+            this.locationView = new MuseumLocationView({
+                model: this.model
+            });
         },
         render: function() {
             if (this.model) {
@@ -25,6 +29,7 @@ define([
                 this.$el.find('ul:first').html('');
                 this.$el.find('ul:first').append(this.infoView.$el);
                 this.$el.find('ul:first').append(this.costView.$el);
+                this.$el.find('ul:first').append(this.locationView.$el);
             }
 
             return this;
