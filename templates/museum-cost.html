@@ -6,8 +6,10 @@
                 <% if (tariff.length > 0) { %>
                     <% _.each(tariff, function(item) { %>
                         <li>
-                            <p><small>S/.</small> <%= (parseFloat(item.value)).toFixed(2) %></p>
-                            <p><%= item.category %></p>
+                            <p class="fit three">
+                                <small>S/.</small> <%= (parseFloat(item.value)).toFixed(2) %>
+                            </p>
+                            <p class="fit five"><%= item.category %></p>
                         </li>
                     <% }); %>
                 <% } else { %>
