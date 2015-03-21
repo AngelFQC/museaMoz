@@ -74,6 +74,10 @@ section.inactive-view.to-right {
     visibility: visible;
 }
 
+.gaia-icon:before {
+    margin-left: -1.5rem;
+}
+
 @media (orientation: landscape) {
     .flickr-photos img {
         width: calc(100% / 5);
