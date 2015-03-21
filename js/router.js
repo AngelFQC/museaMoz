@@ -42,11 +42,7 @@ define([
             var ubigeosFetch = ubigeosCollection.fetch();
 
             $.when(ubigeosFetch).done(function() {
-                var regionModel = ubigeosCollection.findWhere({
-                    coddpto: parseInt(coddpto),
-                    codprov: 0,
-                    coddist: 0
-                });
+                var regionModel = ubigeosCollection.getRegion(coddpto);
 
                 regionView = new RegionView({
                     model: regionModel
@@ -61,11 +57,7 @@ define([
             var ubigeosFetch = ubigeosCollection.fetch();
 
             $.when(ubigeosFetch).done(function() {
-                var provinceModel = ubigeosCollection.findWhere({
-                    coddpto: parseInt(coddpto),
-                    codprov: parseInt(codprov),
-                    coddist: 0
-                });
+                var provinceModel = ubigeosCollection.getProvince(coddpto, codprov);
 
                 provinceView = new ProvinceView({
                     model: provinceModel

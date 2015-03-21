@@ -32,6 +32,27 @@ define([
             });
 
             return districts;
+        },
+        getRegion: function(coddpto) {
+            return this.findWhere({
+                coddpto: parseInt(coddpto),
+                codprov: 0,
+                coddist: 0
+            });
+        },
+        getProvince: function(coddpto, codprov) {
+            return this.findWhere({
+                coddpto: parseInt(coddpto),
+                codprov: parseInt(codprov),
+                coddist: 0
+            });
+        },
+        getDistrict: function(coddpto, codprov, coddist) {
+            return this.findWhere({
+                coddpto: parseInt(coddpto),
+                codprov: parseInt(codprov),
+                coddist: parseInt(coddist)
+            });
         }
     });
 
