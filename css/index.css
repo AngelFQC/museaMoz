@@ -54,6 +54,23 @@ section.inactive-view.to-right {
     animation: current-to-right 0.4s forwards;
 }
 
+[data-type="list"] ul li, 
+[data-type="list"] ul li a {
+    height: auto;
+    min-height: 6rem;
+}
+
+[data-type="list"] ul li p {
+    padding-bottom: 1rem;
+    paddin-top: 1rem;
+    white-space: normal;
+}
+
+[data-type=list] ul li p:first-of-type {
+    padding-bottom: 0;
+    padding-top: 1rem;
+}
+
 #index {
     height: 100%;
 }
