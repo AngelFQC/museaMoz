@@ -6,7 +6,7 @@
         <article>
             <header>Costos</header>
             <ul>
-                <% if (tariff.length > 0) { %>
+                <% if (tariff && tariff.length > 0) { %>
                     <% _.each(tariff, function(item) { %>
                         <li>
                             <p class="fit three">
@@ -15,18 +15,17 @@
                             <p class="fit five"><%= item.category %></p>
                         </li>
                     <% }); %>
+                <% } else if (tariff && tariff.length == 0) { %>
+                    <li>
+                        <p>Ingreso gratuito.</p>
+                    </li>
                 <% } else { %>
                     <li>
-                        <p>Ingreso gratuito</p>
+                        <p>La información sobre costos no está disponible.</p>
                     </li>
                 <% } %>
             </ul>
-        </article>
-    </section>
-
-    <% if (comments.length > 0) { %>
-        <section class="gaia-list">
-            <article>
+            <% if (comments.length > 0) { %>
                 <ul>
                     <% _.each(comments, function(comment) { %>
                         <li>
@@ -34,8 +33,7 @@
                         </li>
                     <% }); %>
                 </ul>
-            </article>
-        </section>
-    <% } %>
+            <% } %>
+        </article>
+    </section>
 </div>
-
