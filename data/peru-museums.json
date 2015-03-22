@@ -5,6 +5,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "Comprende tres salas en las que se exhiben bienes culturales de la cultura Chachapoyas que, en su mayor\u00eda, corresponden a donaciones de los pobladores locales. En la primera sala se presentan bienes culturales de cer\u00e1mica de estilo Chachapoyas con influencia Cajamarca; en la segunda, bienes l\u00edticos y cer\u00e1mica de estilo Inca; y en la tercera, momias y material org\u00e1nico.",
         "ubigeo": {
             "region": 1,
             "province": 1,
@@ -34,6 +35,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "Posee una variada colecci\u00f3n de bienes culturales provenientes de las invesigaciones realizadas en la zona arqueol\u00f3gica monumental Chav\u00edn iniciadas por Julio C. Tello. En las salas se exhiben 19 conchas de caracol usadas como pututos o trompetas, cabezas clavas y l\u00e1pidas, as\u00ed como una maqueta de la zona monumental. En una sala se encuentra el Obelisco Tello, escultura emblem\u00e1tica de 2.52 metros de alto, que sintetiza la concepci\u00f3n religiosa del mundo Chav\u00edn",
         "ubigeo": {
             "region": 2,
             "province": 8,
@@ -63,6 +65,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rica"
         ],
+        "description": "Es uno de los primeros museos regionales del pa\u00eds. Est\u00e1 constituido en cuatro salas ubicadas en tres niveles, en las que se exponen de forma secuencial bienes culturales de cer\u00e1mica, textiles, l\u00edticos, metales, materiales org\u00e1nicos y \u00f3seos de los a\u00f1os 10500 a.C a 700 a.C, alternados con maquetas y dioramas. Junto al museo se encuentra el parque l\u00edtico m\u00e1s grande de Am\u00e9rica, denominado as\u00ed por presentar alrededor de 120 monolitos, dinteles, cabezas clavas y otras piezas l\u00edticas pertenecientes a la cultura Recuay.",
         "ubigeo": {
             "region": 2,
             "province": 1,
@@ -111,12 +114,13 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rica"
         ],
+        "description": "Se sit\u00faa junto a la zona arqueol\u00f3gica Sech\u00edn. Mediante una secuencia cronol\u00f3gica se narra el desarrollo cultural del valle de Casma, representado por variados bienes culturales recuperados en los proyectos de investigaci\u00f3n arqueol\u00f3gica realizados en el Cerro Sech\u00edn, Sech\u00edn Bajo, Sech\u00edn Alto, Las Aldas, Pampa Colorada y Moxeque.",
         "ubigeo": {
             "region": 2,
             "province": 5,
             "district": 1
         },
-        "address": "Carretera Casma \u2013 Huaras Km 2",
+        "address": "Carretera Casma \u2013 Huaraz Km 2",
         "phones": [
             "(043) 421829",
             "943865538"
@@ -157,6 +161,7 @@
         "_id": 5,
         "name": "Centro de Informaci\u00f3n \"Ichic Wilkawain\"",
         "collection": null,
+        "description": null,
         "ubigeo": {
             "region": 2,
             "province": 1,
@@ -205,6 +210,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "La sala est\u00e1 ubicada en las inmediaciones del sitio arqueol\u00f3gico Willkawain. Expone bienes culturales de cer\u00e1mica y mediante paneles informativos se explica la ocupaci\u00f3n Wari en el Callej\u00f3n de Huaylas, \u00c1ncash.",
         "ubigeo": {
             "region": 2,
             "province": 1,
@@ -253,6 +259,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rica"
         ],
+        "description": "La colecci\u00f3n del museo se expone en dos salas: la primera contiene litoesculturas provenientes de la zona arqueol\u00f3gica Pashash y algunos ejemplares de los denominados \u201ctableros Recuay\u201d; en la segunda se muestran objetos cer\u00e1micos y metales de producci\u00f3n artesanal. El recorrido se complementa con paneles informativos donde se aborda el contexto cultural, cronol\u00f3gico, geogr\u00e1fico y tecnol\u00f3gico de la cultura Pashash\u2013Recuay.",
         "ubigeo": {
             "region": 2,
             "province": 10,
@@ -284,6 +291,7 @@
             "Hist\u00f3rica",
             "Ciencias naturales"
         ],
+        "description": "El museo posee una colecci\u00f3n de especies de la flora y fauna de la regi\u00f3n. Adem\u00e1s, una serie de fotograf\u00edas de las ciudades de Yungay y Huaraz antes y despu\u00e9s del sismo ocurrido en el a\u00f1o 1970, as\u00ed como aerofotograf\u00edas del alud que sepult\u00f3 la ciudad de Ranrahirca en el a\u00f1o 1962.",
         "ubigeo": {
             "region": 2,
             "province": 15,
@@ -332,6 +340,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "El museo se ubica en el emplazamiento de un antiguo trapiche. En sus salas se exhiben m\u00e1s de doscientos bienes culturales de cer\u00e1mica, l\u00edticos, osamentas, metales, textiles, de material org\u00e1nico, queros, sandalias de cuero, mates pirograbados, instrumentos textiles y una momia, pertenecientes a las culturas Wari y Chanka. Adem\u00e1s exhibe una colecci\u00f3n de bienes culturales hist\u00f3rico-art\u00edsticos.",
         "ubigeo": {
             "region": 3,
             "province": 1,
@@ -379,6 +388,7 @@
         "collection": [
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "Est\u00e1 ubicado en la plaza principal de Quinua, a 35 km. al noreste de la ciudad de Ayacucho. En sus instalaciones cuenta con una sala de exposici\u00f3n permanente donde se muestran armas, uniformes, maquetas y otros objetos relacionados a la Batalla de Ayacucho. Destaca el ambiente donde se firm\u00f3 la Capitulaci\u00f3n de Ayacucho el 9 de diciembre de 1824.",
         "ubigeo": {
             "region": 5,
             "province": 1,
@@ -427,6 +437,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo exhibe bienes culturales procedentes de las excavaciones arqueol\u00f3gicas en la zona arqueol\u00f3gica monumental Wari: cer\u00e1micas, l\u00edticos, textiles, monolitos, entre otros; as\u00ed como textos explicativos sobre la cultura Wari, un plano y fotograf\u00edas de los sectores que lo integran.",
         "ubigeo": {
             "region": 5,
             "province": 1,
@@ -475,6 +486,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rico"
         ],
+        "description": "El museo presenta el proceso cultural del Per\u00fa, especialmente de Ayacucho, desde hace aproximadamente 15 mil a\u00f1os; la influencia de la Cultura Chav\u00edn; el florecimiento de la cultura regional Huarpa; el surgimiento de la cultura Wari, hasta la llegada de los Incas. Asimismo, cuenta con una colecci\u00f3n de bienes culturales hist\u00f3rico-art\u00edsticos.",
         "ubigeo": {
             "region": 5,
             "province": 1,
@@ -525,6 +537,7 @@
             "Hist\u00f3rico-Art\u00edstica",
             "Etnogr\u00e1fica"
         ],
+        "description": "El Complejo Monumental Bel\u00e9n, de \u00e9poca colonial, est\u00e1 construido sobre estructuras Inca que pueden apreciarse durante el recorrido. En las salas se exponen bienes culturales prehisp\u00e1nicos como textiles, cer\u00e1micas y piezas l\u00edticas; y tejidos de la \u00e9poca virreinal. Una peque\u00f1a colecci\u00f3n etnogr\u00e1fica de la regi\u00f3n conformada por instrumentos de agricultura, ganader\u00eda, instrumentos musicales, gastronom\u00eda, vestimenta t\u00edpica, entre otros, complementan la muestra.",
         "ubigeo": {
             "region": 6,
             "province": 1,
@@ -573,6 +586,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "La mayor parte de bienes culturales que exhibe este museo proviene de las investigaciones arqueol\u00f3gicas desarrolladas en la zona. Posee metales, cer\u00e1mica ceremonial y utilitaria, morteros y una escultura l\u00edtica que representa un puma. La colecci\u00f3n etnogr\u00e1fica est\u00e1 conformada por instrumentos de labranza, textiles y vestimenta t\u00edpica de la zona.",
         "ubigeo": {
             "region": 7,
             "province": 13,
@@ -620,6 +634,7 @@
         "collection": [
             "Arquitect\u00f3nico"
         ],
+        "description": "l museo se ubica a 1.7 km. de Aguas Calientes. La exhibici\u00f3n comprende cer\u00e1mica, l\u00edticos, metales, osamentas, entre otros, procedentes de las investigaciones realizadas en el Santuario Hist\u00f3rico de Machu Picchu.",
         "ubigeo": {
             "region": 7,
             "province": 13,
@@ -657,6 +672,7 @@
             "Hist\u00f3rico-Art\u00edstica",
             "Etnogr\u00e1fica"
         ],
+        "description": "El museo ocupa la casa del cronista mestizo Inca Garcilaso de la Vega. En sus catorce salas se exhiben bienes culturales arqueol\u00f3gicos, etnogr\u00e1ficos e hist\u00f3rico-art\u00edsticos, entre los que destacan pinturas de la Escuela Cusque\u00f1a.",
         "ubigeo": {
             "region": 7,
             "province": 1,
@@ -709,6 +725,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo fue creado por iniciativa de los pobladores, gracias a la donaci\u00f3n de la colecci\u00f3n privada del investigador Samuel Humberto Espinoza Lozano, disc\u00edpulo de Julio C. Tello. La colecci\u00f3n est\u00e1 compuesta por restos humanos, artefactos l\u00edticos, monolitos, cer\u00e1micas, textiles y metales. Tiene dos salas de exhibici\u00f3n permanente con fotograf\u00edas de sitios arqueol\u00f3gicos y dioramas que representan la geograf\u00eda de la regi\u00f3n.",
         "ubigeo": {
             "region": 8,
             "province": 6,
@@ -757,6 +774,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "El museo comprende dos salas de exposici\u00f3n que exhiben bienes culturales de la regi\u00f3n. Muestra una gigantograf\u00eda que detalla la zona arqueol\u00f3gico Inca Huasi - Huaytar\u00e1 y la recreaci\u00f3n de un entierro prehisp\u00e1nico.",
         "ubigeo": {
             "region": 8,
             "province": 1,
@@ -804,6 +822,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "La sala se encuentra en las inmediaciones la zona arqueol\u00f3gica monumental de Kotosh. La exposici\u00f3n se centra en los estudios realizados por los investigadores japoneses en la zona. Se exhiben bienes culturales de cer\u00e1mica, una maqueta de la arquitectura de Kotosh y una recreaci\u00f3n del Templo de las Manos Cruzadas.",
         "ubigeo": {
             "region": 9,
             "province": 1,
@@ -851,6 +870,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo fue da\u00f1ado por el sismo de Pisco del 15 de agosto de 2007. Por esta raz\u00f3n se est\u00e1 construyendo un nuevo museo, que estar\u00e1 concluido e implementado para la visita del p\u00fablico en el a\u00f1o 2013.",
         "ubigeo": {
             "region": 10,
             "province": 4,
@@ -879,6 +899,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "Presenta la secuencia cronol\u00f3gica cultural del valle de Pisco, as\u00ed como fragmentos de bienes culturales recuperados en las investigaciones realizadas en el complejo arqueol\u00f3gico y su entorno. Incluye adem\u00e1s r\u00e9plicas, fotograf\u00edas, mapas e infograf\u00edas que contribuyen a la comprensi\u00f3n de la zona arqueol\u00f3gica Inca.",
         "ubigeo": {
             "region": 10,
             "province": 4,
@@ -927,6 +948,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "El museo presenta dos salas de exposici\u00f3n. La sala de Arqueolog\u00eda, con bienes culturales Paracas, Nasca, Wari e Inca; y la de Bioantropolog\u00eda, que detalla costumbres funerarias, deformaciones craneanas, trepanaciones, cabezas trofeo y restos humanos que evidencian paleopatolog\u00edas. En la parte posterior del edificio se encuentra una reproducci\u00f3n de las L\u00edneas de Nasca que pueden ser apreciadas desde una plataforma.",
         "ubigeo": {
             "region": 10,
             "province": 1,
@@ -976,6 +998,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "En sus salas se presentan temas alusivos al calendario c\u00edvico cultural de la Regi\u00f3n, as\u00ed como bienes culturales provenientes del Valle del Mantaro y fotograf\u00edas del lago Chinchaycocha.",
         "ubigeo": {
             "region": 11,
             "province": 9,
@@ -1024,6 +1047,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo est\u00e1 ubicado junto a la Zona Arqueol\u00f3gica Wariwillka. En el primer piso se encuentra la sala de exposici\u00f3n temporal; y en el segundo se presenta la secuencia ocupacional del Valle del Mantaro, destacando los bienes culturales de las culturas Wankas y Wari, principalmente cer\u00e1micas, l\u00edticos, morteros, collares, entre otros.",
         "ubigeo": {
             "region": 11,
             "province": 1,
@@ -1073,6 +1097,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo de sitio se ubica en la secci\u00f3n este de la Zona Arqueol\u00f3gica Monumental de Chan Chan. Exhibe bienes culturales recuperados en las investigaciones realizadas. Adem\u00e1s, se describe el desarrollo cultural prehisp\u00e1nico de la regi\u00f3n La Libertad, desde los primeros artefactos l\u00edticos hasta la cer\u00e1mica de las culturas Moche y Chim\u00fa. Adem\u00e1s, se exponen temas relacionados a la agricultura, t\u00e9cnicas de irrigaci\u00f3n y productos cultivados en el valle de Moche. Asimismo, cuenta con una sala computarizada que narra el origen y desarrollo del se\u00f1or\u00edo Chimor.",
         "ubigeo": {
             "region": 12,
             "province": 1,
@@ -1121,6 +1146,7 @@
             "Arqueol\u00f3gica",
             "Etnogr\u00e1fica"
         ],
+        "description": "El museo exhibe una colecci\u00f3n de bienes culturales que explica la secuencia cronol\u00f3gica del desarrollo cultural del Per\u00fa, con cer\u00e1mica representativa de las culturas de la zona, destacando los materiales de las culturas Moche y Lambayeque. Asimismo, posee recreaciones a escala natural de la vida cotidiana y costumbres de Lambayeque. Actualmente es el centro de las investigaciones arqueol\u00f3gicas de la regi\u00f3n.",
         "ubigeo": {
             "region": 13,
             "province": 3,
@@ -1164,6 +1190,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo conserva el estilo arquitect\u00f3nico de la zona; su colecci\u00f3n est\u00e1 compuesta por cer\u00e1micas, metales y fragmentos de frisos recuperados en las investigaciones arqueol\u00f3gicas realizadas desde el a\u00f1o 2007 en el Complejo arqueol\u00f3gico Chotuna-Chornancap. Asimismo, presenta recreaciones a escala natural de la llegada de Naylamp.",
         "ubigeo": {
             "region": 13,
             "province": 3,
@@ -1207,6 +1234,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "En el museo se exponen los bienes culturales recuperados en las \u00faltimas excavaciones realizadas en el sitio arqueol\u00f3gico, con \u00e9nfasis en los personajes de la nobleza Moche, hallados en la tumba N\u00b0 14, 15 y 16 en el mausoleo real de Huaca Rajada. Asimismo, el museo posee bienes culturales de la cultura Lambayeque para explicar la continuidad cultural en la zona.",
         "ubigeo": {
             "region": 13,
             "province": 2,
@@ -1254,6 +1282,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo presenta una colecci\u00f3n de bienes culturales arqueol\u00f3gicos, procedentes de las investigaciones arqueol\u00f3gicas, que corresponden a la \u00faltima fase de la cultura Lambayeque, con evidencias de la presencia de la cultura Chim\u00fa e Inca, as\u00ed como del periodo Colonial. Asimismo, exhibe maquetas de las huacas de la zona arqueol\u00f3gica y explica el proceso de los metales desde la extracci\u00f3n hasta la producci\u00f3n de los bienes culturales.",
         "ubigeo": {
             "region": 13,
             "province": 3,
@@ -1302,6 +1331,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El dise\u00f1o arquitect\u00f3nico de este museo est\u00e1 inspirado en las pir\u00e1mides truncas de la cultura Moche. El principal atractivo es la recreaci\u00f3n de la c\u00e1mara funeraria del Se\u00f1or de Sip\u00e1n. En las salas se exhibe una colecci\u00f3n de bienes culturales distribuidos tem\u00e1ticamente: cer\u00e1mica; material org\u00e1nico, como pectorales de concha, tocados de algod\u00f3n y adornos de plumas; y metal, como estandartes, coronas, orejeras de oro con turquesas y sonajeros, entre otros.",
         "ubigeo": {
             "region": 13,
             "province": 3,
@@ -1350,6 +1380,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "La exhibici\u00f3n permanente est\u00e1 conformada por bienes culturales distribuidos en salas tem\u00e1ticas que explican los diferentes aspectos de la sociedad Sic\u00e1n. El atractivo principal del museo lo constituye la exposici\u00f3n del ajuar de una tumba de \u00e9lite excavada en Huaca del Oro. La colecci\u00f3n comprende diversos bienes culturales de metal como coronas, m\u00e1scaras funerarias y cuchillos ceremoniales; cer\u00e1mica; conchas de Spondylus y l\u00edticos representativos de esta cultura. Asimismo, se aprecia recreaciones de tumbas y actividades de la vida cotidiana de la \u00e9poca.",
         "ubigeo": {
             "region": 13,
             "province": 2,
@@ -1394,6 +1425,7 @@
         "collection": [
             "Casa Museo"
         ],
+        "description": "Forma parte de la antigua sede de Correos y Tel\u00e9grafos de Lima. Narra los 500 a\u00f1os de historia de fusi\u00f3n gastron\u00f3mica, a trav\u00e9s de r\u00e9plicas de cer\u00e1mica prehisp\u00e1nica, colonial y plater\u00eda; y una serie de maquetas y recreaciones que reflejan la riqueza de la gastronom\u00eda peruana, considerada una de las expresiones culturales m\u00e1s representativas del pa\u00eds.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1441,6 +1473,7 @@
         "collection": [
             "Hist\u00f3rica-Art\u00edstica"
         ],
+        "description": "Esta casa de principios del siglo XX, fue el espacio familiar donde vivi\u00f3 y trabaj\u00f3 el escritor Jos\u00e9 Carlos Mari\u00e1tegui los \u00faltimos cinco a\u00f1os de su vida. Conserva parte del mobiliario, documentos, libros, objetos personales, el denominado \u201cRinc\u00f3n Rojo\u201d y las oficinas de la revista Amauta. En la pinacoteca de retratos del escritor, se encuentra la obra de Julia Codesido y del argentino Emilio Pettoruti, entre otros artistas nacionales y extranjeros. Cuenta con una biblioteca especializada y realiza diversas actividades culturales.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1469,6 +1502,7 @@
         "collection": [
             "Art\u00edstica"
         ],
+        "description": "Este museo exhibe obras del arte italiano de principios del siglo XX. La colecci\u00f3n inicial fue seleccionada por el cr\u00edtico de arte Mario Vannini Parenti, quien entre 1921 y 1922 viaj\u00f3 a Italia, donde adquiri\u00f3 casi 200 obras de arte -entre esculturas, pinturas, grabados, acuarelas, dibujos y cer\u00e1mica- de m\u00e1s de 120 artistas contempor\u00e1neos de todas las regiones del pa\u00eds, entre los que destacan: Giorgio Belloni, Italico Brass, Oscar Ghiglia, Gian Emilio Malerba, entre otros. Por ello, la colecci\u00f3n del Museo de Arte Italiano es una muestra \u00fanica del arte del cambio de siglo en Italia, a pesar de que la vanguardia no est\u00e9 presente.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1513,6 +1547,7 @@
             "Arte tradicional",
             "Etnogr\u00e1fica"
         ],
+        "description": "En el museo, la trayectoria hist\u00f3rica, cultural y art\u00edstica del Per\u00fa es narrada a trav\u00e9s de la imaginer\u00eda de Cusco, los retablos y cruces de Ayacucho, la talla en piedra de Huamanga, as\u00ed como en las m\u00e1scaras, queros, mates burilados, plater\u00eda, cer\u00e1mica y textiler\u00eda de todo el pa\u00eds. Cada una de esas piezas es testimonio y expresi\u00f3n pl\u00e1stica de la sensibilidad y habilidad de los peruanos de todos los tiempos.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1560,6 +1595,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo fue fundado por Arturo Jim\u00e9nez Borja en el a\u00f1o 1960. Los bienes culturales arqueol\u00f3gicos que se exponen fueron recuperados en las investigaciones realizadas tanto en el sitio arqueol\u00f3gico como en sus alrededores. En las salas se exhiben los objetos de los a\u00f1os 1100 a 1500 d.C., \u00e9poca de la Cultura Ichma e Inca, como cer\u00e1micas, textiles, metales e instrumentos de labranza que explican la vida cotidiana y costumbres de los antiguos habitantes.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1603,6 +1639,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo cuenta con una sala de donde se exhiben bienes culturales arqueol\u00f3gicos recuperados en las investigaciones realizadas en el sitio y la zona arqueol\u00f3gica monumental de Pachacamac, como cer\u00e1micas, textiles, materiales org\u00e1nicos, restos humanos y animales de las diferentes culturas que ocuparon este centro ceremonial.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1651,6 +1688,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo de sitio cuenta con una sala de exposici\u00f3n que exhibe bienes culturales provenientes de las excavaciones realizadas en el sitio, como cer\u00e1micas, textiles, material \u00f3seo y org\u00e1nico, correspondientes a las culturas Lima, Wari e Ichma. Asimismo, presenta recreaciones de las actividades econ\u00f3micas y costumbres funerarias practicadas por los antiguos pobladores del sitio.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1702,6 +1740,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rica-Art\u00edstica"
         ],
+        "description": "Este museo es el m\u00e1s antiguo y representativo de nuestro pa\u00eds por su valioso, variado y vasto patrimonio cultural. En el recorrido de las salas y galer\u00edas se aprecia con rigor museogr\u00e1fico parte de sus importantes colecciones, como ceramios, textiles, metales, material org\u00e1nico y l\u00edtico relacionados a invalorables restos humanos conservados con t\u00e9cnicas sorprendentes. Objetos de valor hist\u00f3rico-art\u00edstico, fondos documentales fotogr\u00e1ficos y bibliogr\u00e1ficos dan cuenta de los periodos coloniales y republicanos. Cuenta tambi\u00e9n con una hermosa casona destinada al Museo Bolivariano conocida como la Quinta del Virrey Pezuela o Quinta de Los Libertadores. El Museo tambi\u00e9n desarrolla y promueva estudios cient\u00edficos vinculados con el desarrollo hist\u00f3rico del pa\u00eds.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1746,6 +1785,7 @@
         "collection": [
             "Fotogr\u00e1fica"
         ],
+        "description": "Se encuentra ubicado en la cima del Cerro San Crist\u00f3bal, junto a la Cruz erigida en el lugar. La sala ofrece una exposici\u00f3n de fotograf\u00edas in\u00e9ditas de Lima desde principios de siglo XIX. En las im\u00e1genes se pueden observar a los gestores de la Cruz, los sacerdotes Francisco Arambur\u00fa y Francisco Javier Ampuero, as\u00ed como algunas im\u00e1genes tomadas por los fot\u00f3grafos Courret y Garreud.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1795,6 +1835,7 @@
             "Hist\u00f3rico-Art\u00edstica",
             "Etnogr\u00e1fica"
         ],
+        "description": "La exposici\u00f3n es una s\u00edntesis de las manifestaciones culturales del Per\u00fa de todos los tiempos. Es un espacio abierto a las expresiones pl\u00e1sticas y las artes esc\u00e9nicas. En sus ambientes se presentan exposiciones temporales que permiten una gran versatilidad de sus instalaciones. En sus salas se exhiben numerosas colecciones de arte y cultura de las diversas regiones del Per\u00fa. Es depositario de una importante colecci\u00f3n de patrimonio arqueol\u00f3gico, hist\u00f3rico y etnogr\u00e1fico, as\u00ed como una selecci\u00f3n de alto valor en la pl\u00e1stica colonial y contempor\u00e1nea.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1843,6 +1884,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "Las excavaciones arqueol\u00f3gicas realizadas en Huallamarca desde 1958 han permitido recuperar bienes culturales que se encuentran en el museo de sitio, como momias y fardos funerarios que posteriormente fueron desenfardelados, herramientas textiles, costureros, instrumentos musicales, mates burilados y pirograbados, m\u00e1scaras funerarias de madera con ojos de concha, herramientas agr\u00edcolas, entre otros.",
         "ubigeo": {
             "region": 14,
             "province": 1,
@@ -1893,6 +1935,7 @@
             "Hist\u00f3rica",
             "Etnogr\u00e1fica"
         ],
+        "description": "El museo est\u00e1 ubicado en un edificio construido en el a\u00f1o 1863, declarado Patrimonio Cultural de la Naci\u00f3n. En su interior se aprecia decoraci\u00f3n mural, madera tallada y un conjunto de muebles antiguos. Resalta la colecci\u00f3n de esculturas hechas en fibra de vidrio a escala natural confeccionadas por el artista pl\u00e1stico Felipe Lettersten y que representan a pobladores de las principales comunidades nativas de la Amazon\u00eda del Per\u00fa, Brasil y Venezuela. Comprende salas de exhibici\u00f3n temporal.",
         "ubigeo": {
             "region": 15,
             "province": 1,
@@ -1923,6 +1966,7 @@
             "Arqueol\u00f3gica",
             "Etnogr\u00e1fica"
         ],
+        "description": "Se encuentra dentro de la zona arqueol\u00f3gica Narihual\u00e1. Consta de tres salas: la Sala Arqueol\u00f3gica y la Sala Etnohist\u00f3rica, que presentan bienes culturales recuperados en las investigaciones como cer\u00e1mica y metales, adem\u00e1s de bienes donados por los pobladores del lugar; y la Sala Wallak, que da a conocer las tradiciones vivas de Narihual\u00e1 como el tejido en paja toquilla, la elaboraci\u00f3n de cer\u00e1mica y el proceso de fermentaci\u00f3n de la chicha de jora.",
         "ubigeo": {
             "region": 19,
             "province": 1,
@@ -1962,6 +2006,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "Actualmente, presenta cinco salas temporales que explican temas de la historia regional de Piura: la Sala Tallanes Chim\u00fa, La Ruta de Pizarro en Piura, la muerte en Piura Prehisp\u00e1nica, la Cer\u00e1mica Vic\u00fas y la sala relacionada al Patrimonio Monumental de Piura.",
         "ubigeo": {
             "region": 19,
             "province": 1,
@@ -2001,6 +2046,7 @@
         "collection": [
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "Su construcci\u00f3n se inici\u00f3 entre los a\u00f1os 1567 y 1576 y concluy\u00f3 en 1602. Su portada monumental de estilo barroco andino es un ejemplo de la arquitectura del altiplano por las columnas decoradas con estilizaciones de fauna y flora. Conserva retablos, esculturas y pinturas de los siglos XVII y XVIII que mantienen su espacio original. Las pinturas forman parte de las series de San Juan Bautista y Santa Teresa de Jes\u00fas.",
         "ubigeo": {
             "region": 20,
             "province": 1,
@@ -2044,6 +2090,7 @@
         "collection": [
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "La construcci\u00f3n del templo se inici\u00f3 entre los a\u00f1os 1568 y 1576 y concluy\u00f3 en el a\u00f1o 1620. Tiene una nave de grandes proporciones en forma de cruz latina, puerta lateral, puerta principal y dep\u00f3sito. Conserva mobiliario religioso, retablos, esculturas, p\u00falpito y pinturas de los siglos XVII y XVIII que mantienen su ubicaci\u00f3n original. Posee igualmente la pintura mural con motivos religiosos m\u00e1s antigua de la regi\u00f3n. Uno de los lienzos que expone el museo es la Coronaci\u00f3n de la Virgen por la Sant\u00edsima Trinidad, atribuido a Bernardo Bitti.",
         "ubigeo": {
             "region": 20,
             "province": 1,
@@ -2091,6 +2138,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo expone bienes culturales recuperados durante la d\u00e9cada de 1970 en la zona arqueol\u00f3gica Pukara. La colecci\u00f3n est\u00e1 compuesta especialmente por estelas de granito y monolitos de figuras zoomorfas y antropomorfas de diversos formatos correspondientes a la cultura Pukara.",
         "ubigeo": {
             "region": 20,
             "province": 6,
@@ -2141,6 +2189,7 @@
             "Etnogr\u00e1fica",
             "Paleontol\u00f3gica"
         ],
+        "description": "El museo exhibe bienes culturales arqueol\u00f3gicos e hist\u00f3rico-art\u00edsticos del siglo XVI y XVII, arte popular de la amazon\u00eda, restos f\u00f3siles, minerales y algunos espec\u00edmenes de la flora y fauna de la regi\u00f3n. Asimismo, tiene una sala con fotograf\u00edas.",
         "ubigeo": {
             "region": 21,
             "province": 1,
@@ -2170,6 +2219,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "El museo est\u00e1 formado por dos salas de exposici\u00f3n. Tiene un sistema de pasarela a\u00e9rea en madera dise\u00f1ada para observar las tumbas in situ. Mediante paneles e infograf\u00edas explica el proceso cultural y geograf\u00eda de Tacna. El periodo de los primeros cazadores y recolectores est\u00e1 representado por bienes culturales l\u00edticos e im\u00e1genes de arte rupestre de Toquepala y Vilavilani. La presencia Wari y Tiahuanaco en la regi\u00f3n se representa a trav\u00e9s de ilustraciones y bienes culturales de cer\u00e1mica y textiles.",
         "ubigeo": {
             "region": 22,
             "province": 1,
@@ -2218,6 +2268,7 @@
             "Arqueol\u00f3gica",
             "Hist\u00f3rico-Art\u00edstica"
         ],
+        "description": "Ubicado en la segunda planta de la Casa de la Cultura de Tacna, el museo tiene dos salas de exposici\u00f3n: la primera corresponde a la \u00e9poca de la Emancipaci\u00f3n e Independencia, representada por retratos de los libertadores Jos\u00e9 de San Mart\u00edn y Sim\u00f3n Bol\u00edvar; la segunda, referida a la \u00e9poca de la Rep\u00fablica explica los acontecimientos en la Guerra del Pac\u00edfico, y posee pinturas de la Batalla de Arica, Alfonso Ugarte en el Morro de Arica y Francisco Bolognesi. Asimismo, el museo posee una r\u00e9plica a escala del Monitor Hu\u00e1scar, documentos de la Guerra del Pac\u00edfico, sables, entre otros objetos correspondientes a los combatientes de la Batalla del Campo de Alianza.",
         "ubigeo": {
             "region": 22,
             "province": 1,
@@ -2265,6 +2316,7 @@
         "collection": [
             "Arqueol\u00f3gica"
         ],
+        "description": "Exhibe bienes culturales provenientes de las diferentes temporadas de investigaci\u00f3n institucional como: l\u00edticos, cer\u00e1micas, malacol\u00f3gicos, fragmentos de adobe con pintura mural; adem\u00e1s explica la importancia de la zona arqueol\u00f3gica monumental Cabeza de Vaca y su relaci\u00f3n con el Qhapaq \u00d1an a trav\u00e9s de infograf\u00edas.",
         "ubigeo": {
             "region": 23,
             "province": 1,
@@ -2307,4 +2359,3 @@
         ]
     }
 ]
-
