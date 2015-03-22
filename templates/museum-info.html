@@ -3,20 +3,16 @@
 </a>
 <div id="info-panel" class="bb-tabpanel" role="tabpanel" aria-labelledby="info">
     <section class="gaia-list fit scroll">
-        <% if (collection && collection.length > 0) { %>
-            <article>
+        <article>
+            <% if (collection && collection.length > 0) { %>
+                <header>Colección</header>
                 <ul>
-                    <li class="vbox">
-                        <p>Colección</p>
-                        <% _.each(collection, function(item) { %>
-                            <p><%= item %></p>
-                        <% }) %>
+                    <li>
+                        <p><%= collection.join(', ') %></p>
                     </li>
                 </ul>
-            </article>
-        <% } %>
+            <% } %>
 
-        <article>
             <ul>
                 <li>
                     <p>
@@ -29,19 +25,17 @@
                     </li>
                 <% } %>
             </ul>
-        </article>
 
-        <% if (schedule.length > 0) { %>
-            <article>
+            <% if (schedule.length > 0) { %>
                 <header>Horarios</header>
                 <ul>
                     <% _.each(schedule, function(item) { %>
                         <li>
                             <p><%= item %></p>
                         </li>
-                   <% }) %>
+                    <% }) %>
                 </ul>
-            </article>
-        <% } %>
+            <% } %>
+        </article>
     </section>
 </div>
