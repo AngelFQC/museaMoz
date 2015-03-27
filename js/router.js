@@ -9,9 +9,6 @@ define([
     'collections/museums',
     'views/museum'
 ], function($, _, Backbone, IndexView, RegionView, UbigeosCollection, ProvinceView, MuseumsCollection, MuseumView) {
-    var STATUS_INDEX = 'index',
-        status = null;
-
     var AppRouter = Backbone.Router.extend({
         routes: {
             '': 'showIndex',
@@ -29,11 +26,9 @@ define([
     var initialize = function() {
         var appRouter = new AppRouter;
         appRouter.on('route:showIndex', function() {
-            if (status !== STATUS_INDEX) {
+            if (indexView === null) {
                 indexView = new IndexView();
                 indexView.render();
-
-                status = STATUS_INDEX;
             }
         });
         appRouter.on('route:showRegion', function(coddpto) {
