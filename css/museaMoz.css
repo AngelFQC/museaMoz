@@ -82,11 +82,11 @@ section.inactive-view.to-right {
     width: calc(100% / 3);
 }
 
-.bb-tablist li > a:target {
+.bb-tablist li.active > a {
     color: #0AC;
 }
 
-.bb-tablist li > a:target + div{
+.bb-tablist li.active a + div {
     top: 5rem;
     visibility: visible;
 }

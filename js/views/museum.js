@@ -35,7 +35,8 @@ define([
             return this;
         },
         events: {
-            'click header a': 'backOnClick'
+            'click header a': 'backOnClick',
+            'click .bb-tablist li a': 'tabOnClick'
         },
         backOnClick: function(e) {
             this.closeView();
@@ -45,6 +46,13 @@ define([
         },
         closeView: function() {
             this.el.className = 'inactive-view to-left to-right';
+        },
+        tabOnClick: function(e) {
+            e.preventDefault();
+
+            this.$el.find('li[role=presentation]').removeClass('active');
+
+            e.currentTarget.parentNode.className = 'active';
         }
     });
 

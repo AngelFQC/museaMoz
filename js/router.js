@@ -89,8 +89,6 @@ define([
                 });
                 museumView.render();
                 museumView.openView();
-
-                appRouter.navigate('#info', false);
             });
         });
 

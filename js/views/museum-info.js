@@ -6,6 +6,7 @@ define([
 ], function($, _, Backbone, MuseumInfoTemplate) {
     var MuseumInfo = Backbone.View.extend({
         tagName: 'li',
+        className: 'active',
         template: _.template(MuseumInfoTemplate),
         initialize: function() {
             this.render();
