@@ -12,6 +12,7 @@ define([
     var AppRouter = Backbone.Router.extend({
         routes: {
             '': 'showIndex',
+            'drawer': 'showIndex',
             'region/:id': 'showRegion',
             'region/:coddpto/province/:codprov': 'showProvince',
             'museum/:id': 'showMuseum'
@@ -26,6 +27,10 @@ define([
     var initialize = function() {
         var appRouter = new AppRouter;
         appRouter.on('route:showIndex', function() {
+            if (regionView !== null) {
+                regionView.closeView();
+            }
+
             if (indexView === null) {
                 indexView = new IndexView();
                 indexView.render();
@@ -37,6 +42,10 @@ define([
             var ubigeosFetch = ubigeosCollection.fetch();
 
             $.when(ubigeosFetch).done(function() {
+                if (provinceView !== null) {
+                    provinceView.closeView();
+                }
+
                 var regionModel = ubigeosCollection.getRegion(coddpto);
 
                 regionView = new RegionView({
@@ -52,6 +61,10 @@ define([
             var ubigeosFetch = ubigeosCollection.fetch();
 
             $.when(ubigeosFetch).done(function() {
+                if (museumView !== null) {
+                    museumView.closeView();
+                }
+
                 var provinceModel = ubigeosCollection.getProvince(coddpto, codprov);
 
                 provinceView = new ProvinceView({
