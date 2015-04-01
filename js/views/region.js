@@ -22,12 +22,6 @@ define([
 
             return this;
         },
-        events: {
-            'click header a': 'backOnClick'
-        },
-        backOnClick: function(e) {
-            this.closeView();
-        },
         openView: function() {
             this.el.className = 'inactive-view to-left';
         },
