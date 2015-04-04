@@ -14,30 +14,4 @@
             </article>
         </section>
     <% } %>
-
-    <section data-type="list">
-        <% if (phones.length > 0) { %>
-            <header>Teléfono</header>
-            <ul>
-                <% _.each(phones, function(phone) { %>
-                    <li>
-                        <p><%= phone %></p>
-                    </li>
-                <% }) %>
-            </ul>
-        <% } %>
-
-        <% if (emails.length > 0) { %>
-            <header>Correo electrónico</header>
-            <ul>
-                <% _.each(emails, function(email) { %>
-                    <li>
-                        <a href="mailto:<%= email %>">
-                           <p><%= email %></p>
-                        </a>
-                    </li>
-                <% }) %>
-            </ul>
-        <% } %>
-    </section>
 </div>

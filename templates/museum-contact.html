@@ -1,0 +1,41 @@
+<a id="location" href="#location" role="tab" aria-controls="location-panel">
+    <aside class="gaia-icon icon-settings-homescreen"></aside>
+</a>
+<div id="location-panel" class="bb-tabpanel" role="tabpanel" aria-labelledby="location">
+    <section data-type="list">
+        <% if (schedule.length > 0) { %>
+            <header>Horarios</header>
+            <ul>
+                <% _.each(schedule, function(item) { %>
+                    <li>
+                        <p><%= item %></p>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } %>
+
+        <% if (phones.length > 0) { %>
+            <header>Teléfono</header>
+            <ul>
+                <% _.each(phones, function(phone) { %>
+                    <li>
+                        <p><%= phone %></p>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } %>
+
+        <% if (emails.length > 0) { %>
+            <header>Correo electrónico</header>
+            <ul>
+                <% _.each(emails, function(email) { %>
+                    <li>
+                        <a href="mailto:<%= email %>">
+                           <p><%= email %></p>
+                        </a>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } %>
+    </section>
+</div>
