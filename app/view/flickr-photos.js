@@ -2,8 +2,8 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'collections/flickr-photos',
-    'views/flickr-photo'
+    'collection/flickr-photos',
+    'view/flickr-photo'
 ], function($, _, Backbone, FlickrPhotosCollection, FlickrPhotoView) {
     var FlickrPhotosView = Backbone.View.extend({
         className: 'scroll flickr-photos',

@@ -2,12 +2,12 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/index',
-    'views/region',
-    'collections/ubigeos',
-    'views/province',
-    'collections/museums',
-    'views/museum'
+    'view/index',
+    'view/region',
+    'collection/ubigeos',
+    'view/province',
+    'collection/museums',
+    'view/museum'
 ], function($, _, Backbone, IndexView, RegionView, UbigeosCollection, ProvinceView, MuseumsCollection, MuseumView) {
     var AppRouter = Backbone.Router.extend({
         routes: {

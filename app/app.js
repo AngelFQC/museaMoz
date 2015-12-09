@@ -1,17 +1,12 @@
-define(
-    [
-        'jquery',
-        'underscore',
-        'backbone',
-        'router'
-    ],
-    function($, _, Backbone, Router) {
-        var initialize = function() {
-            Router.initialize();
-        };
+define([
+    'router'
+], function(Router) {
+    var initialize = function() {
+        Router.initialize();
+    };
 
-        return {
-            initialize: initialize
-        };
-    }
-);
+    return {
+        initialize: initialize
+    };
+});
+

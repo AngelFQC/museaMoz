@@ -2,7 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'text!templates/sidebar-region.html'
+    'text!template/sidebar-region.html'
 ], function($, _, Backbone, SidebarRegionTemplate) {
     var SidebarRegionView = Backbone.View.extend({
         tagName: 'li',

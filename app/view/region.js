@@ -2,7 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/provinces'
+    'view/provinces'
 ], function($, _, Backbone, ProvincesView) {
     var RegionView = Backbone.View.extend({
         el: '#region',

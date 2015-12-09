@@ -2,8 +2,8 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'collections/ubigeos',
-    'views/region-province'
+    'collection/ubigeos',
+    'view/region-province'
 ], function($, _, Backbone, UbigeosCollection, RegionProvinceView) {
     var ProvincesView = Backbone.View.extend({
         tagName: 'ul',

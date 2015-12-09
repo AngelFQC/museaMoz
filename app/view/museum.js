@@ -2,10 +2,10 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/museum-info',
-    'views/museum-cost',
-    'views/museum-contact',
-    'views/museum-location'
+    'view/museum-info',
+    'view/museum-cost',
+    'view/museum-contact',
+    'view/museum-location'
 ], function($, _, Backbone, MuseumInfoView, MuseumCostView, MuseumContactView, MuseumLocationView) {
     var RegionView = Backbone.View.extend({
         el: '#museum',

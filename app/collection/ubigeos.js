@@ -1,7 +1,7 @@
 define([
     "underscore",
     "backbone",
-    "models/ubigeo"
+    "model/ubigeo"
 ], function(_, Backbone, UbigeoModel) {
     var UbigeosCollection = Backbone.Collection.extend({
         model: UbigeoModel,

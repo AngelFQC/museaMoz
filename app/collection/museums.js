@@ -1,7 +1,7 @@
 define([
     "underscore",
     "backbone",
-    "models/museum"
+    "model/museum"
 ], function(_, Backbone, MuseumModel) {
     var MuseumsCollection = Backbone.Collection.extend({
         model: MuseumModel,

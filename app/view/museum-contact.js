@@ -2,7 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'text!templates/museum-contact.html'
+    'text!template/museum-contact.html'
 ], function($, _, Backbone, MuseumContactTemplate) {
     var MuseumContactView = Backbone.View.extend({
         tagName: 'li',

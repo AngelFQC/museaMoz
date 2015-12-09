@@ -2,7 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/museums'
+    'view/museums'
 ], function($, _, Backbone, MuseumsView) {
     var ProvinceView = Backbone.View.extend({
         el: '#province',

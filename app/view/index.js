@@ -2,8 +2,8 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/flickr-photos',
-    'views/sidebar-regions'
+    'view/flickr-photos',
+    'view/sidebar-regions'
 ], function($, _, Backbone, FlickrPhotosView, SidebarRegionsView) {
     var IndexView = Backbone.View.extend({
         el: '#index',

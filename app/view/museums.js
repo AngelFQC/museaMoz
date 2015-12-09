@@ -2,8 +2,8 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'collections/museums',
-    'views/province-museum'
+    'collection/museums',
+    'view/province-museum'
 ], function($, _, Backbone, MuseumsCollection, ProvinceMuseumView) {
     var MuseumsView = Backbone.View.extend({
         tagName: 'ul',

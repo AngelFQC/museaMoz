@@ -1,7 +1,7 @@
 define([
     "underscore",
     "backbone",
-    "models/flickr-photo"
+    "model/flickr-photo"
 ], function(_, Backbone, FlickrPhotoModel) {
     var FlickrPhotosCollection = Backbone.Collection.extend({
         model: FlickrPhotoModel,

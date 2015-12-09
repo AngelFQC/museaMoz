@@ -2,7 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'text!templates/province-museum.html'
+    'text!template/province-museum.html'
 ], function($, _, Backbone, ProvinceMuseumTemplate) {
     var ProvinceMuseum = Backbone.View.extend({
         tagName: 'li',
